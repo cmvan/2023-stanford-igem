@@ -37,7 +37,7 @@ const Navbar = () => {
     <header className="App-header">
       <div className='row nav-area'>
         <div className="col-sm-2 logo">
-          <a href="/">
+          <a href="/stanford">
             <img id="phage-logo" src="https://static.igem.wiki/teams/4951/wiki/graphics/phagelogo.png" alt="Phage Logo" />
           </a>
         </div>

@@ -29,23 +29,22 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/description" element={<Description />} />
-      <Route path="/home" element={<Home />} />
       <Route path="/design" element={<Design />} />
       <Route path="/engineering" element={<Engineering />} />
       <Route path="/implementation" element={<Implementation />} />
       <Route path="/results" element={<Results />} />
-      <Route path="/partcollection" element={<PartCollection />} />
+      <Route path="/part-collection" element={<PartCollection />} />
       <Route path="/parts" element={<Parts />} />
       <Route path="/experiments" element={<Experiments />} />
       <Route path="/safety" element={<Safety />} />
       <Route path="/notebook" element={<Notebook />} />
-      <Route path="/integratedhumanpractices" element={<HumanPractices />} />
+      <Route path="/human-practices" element={<HumanPractices />} />
       <Route path="/communication" element={<Communication />} />
-      <Route path="/sustainabledevelopment" element={<SustainableDevelopment />} />
+      <Route path="/sustainable" element={<SustainableDevelopment />} />
       <Route path="/education" element={<Education />} />
-      <Route path="/ourteam" element={<Team />} />
+      <Route path="/team" element={<Team />} />
       <Route path="/attributions" element={<Attributions />} />
-      <Route path="/ourcontribution" element={<Contribution />} />
+      <Route path="/contribution" element={<Contribution />} />
       <Route path="/awards" element={<Awards />} />
     </Routes>
   );

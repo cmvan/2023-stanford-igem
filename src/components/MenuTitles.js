@@ -1,27 +1,25 @@
 export const MenuTitles = [
     {
-        title: "Home",
-    },{
         title: "Project",
         submenu: [
             {
-                title: "Description", 
+                title: "description", 
                 display: "Description"
             },
             {
-                title: "Design", 
+                title: "design", 
                 display: "Design"
             },
             {
-                title: "Engineering",
+                title: "engineering",
                 display: "Engineering"
             },
             {
-                title: "Implementation", 
+                title: "implementation", 
                 display: "Implementation"
             },
             {
-                title: "Results", 
+                title: "results", 
                 display: "Results"
             }
         ]
@@ -29,23 +27,23 @@ export const MenuTitles = [
         title: "Wet Lab",
         submenu: [
             {
-                title: "PartCollection", 
+                title: "part-collection", 
                 display: "Part Collection"
             },
             {
-                title: "Parts", 
+                title: "parts", 
                 display: "Parts"
             },
             {
-                title: "Experiments",
+                title: "experiments",
                 display: "Experiments"
             },
             {
-                title: "Safety", 
+                title: "safety", 
                 display: "Safety"
             }, 
             {
-                title: "Notebook", 
+                title: "notebook", 
                 display: "Notebook"
             }
         ]
@@ -53,19 +51,19 @@ export const MenuTitles = [
         title: "Human Practices",
         submenu: [
             {
-                title: "IntegratedHumanPractices", 
+                title: "human-practices", 
                 display: "Integrated Human Practices"
             },
             {
-                title: "Communication", 
+                title: "communication", 
                 display: "Communication"
             },
             {
-                title: "SustainableDevelopment", 
+                title: "sustainable", 
                 display: "Sustainable Development"
             },
             {
-                title: "Education", 
+                title: "education", 
                 display: "Education"
             }
         ]
@@ -73,20 +71,20 @@ export const MenuTitles = [
         title: "Team",
         submenu: [
             {
-                title: "OurTeam", 
+                title: "team", 
                 display: "Our Team"
             },
             {
-                title: "Attributions",
+                title: "attributions",
                 display: "Attributions"
             },
             {
-                title: "OurContribution", 
+                title: "contribution", 
                 display: "Our Contribution"
             }
         ]
     },{
-        title: "Awards",
+        title: "Awards"
     }
     
 ]
