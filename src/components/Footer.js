@@ -30,12 +30,12 @@ const Footer = () => {
                             </div>
                         </div>
                         <div className="col-lg sponsors ft-2">
-                            <img className="col sponsor-logo" src="https://static.igem.wiki/teams/4951/wiki/graphics/idtlogo.png"></img>
-                            <img className="col sponsor-logo" src="https://static.igem.wiki/teams/4951/wiki/graphics/stanfordbioelogo.png"></img>
-                            <img className="col sponsor-logo" src="https://static.igem.wiki/teams/4951/wiki/graphics/biomelogo.png"></img>
-                            <img className="col sponsor-logo" src="https://static.igem.wiki/teams/4951/wiki/graphics/neblogo.png"></img>
-                            <img className="col sponsor-logo" src="https://static.igem.wiki/teams/4951/wiki/graphics/snapgenelogo.png"></img>
-                            <img className="col sponsor-logo" src="https://static.igem.wiki/teams/4951/wiki/graphics/twistlogo.png"></img>
+                            <img className="col sponsor-logo" src="https://static.igem.wiki/teams/4951/wiki/graphics/idtlogo.png" alt="IDT logo"></img>
+                            <img className="col sponsor-logo" src="https://static.igem.wiki/teams/4951/wiki/graphics/stanfordbioelogo.png" alt="Stanford BioE logo"></img>
+                            <img className="col sponsor-logo" src="https://static.igem.wiki/teams/4951/wiki/graphics/biomelogo.png" alt="Stanford BIOME logo"></img>
+                            <img className="col sponsor-logo" src="https://static.igem.wiki/teams/4951/wiki/graphics/neblogo.png" alt="New England BioLabs logo"></img>
+                            <img className="col sponsor-logo" src="https://static.igem.wiki/teams/4951/wiki/graphics/snapgenelogo.png" alt="SnapGene logo"></img>
+                            <img className="col sponsor-logo" src="https://static.igem.wiki/teams/4951/wiki/graphics/twistlogo.png" alt="Twist logo"></img>
                         </div>
                     </div>
                 </div>  
