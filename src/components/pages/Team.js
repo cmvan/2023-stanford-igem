@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Carousel, Modal, Card } from "react-bootstrap";
+import { Carousel, Modal, Card, Button } from "react-bootstrap";
 import { membersInfo } from "../data/Members.js"
 import { mentorInfo } from "../data/Mentors.js"
 import Template from "../Template2";
@@ -26,7 +26,7 @@ function ImageCarousel() {
     }, 5000);
 
     return () => clearInterval(interval);
-  });
+  }, []);
 
   const handleSelect = (selectedIndex) => {
     setIndex(selectedIndex);
@@ -71,7 +71,10 @@ function Team() {
           return (
             <div className="col-lg-3" key={key}>
               <Card className="student-card" onClick={() => {toggleShow(member.name)}}>
-                <Card.Img variant="top mt-0" src={member.img.src} alt={member.img.alt} />
+                <div className="card-photo">
+                  <Card.Img variant="top card-front" src={member.img.src} alt={member.img.alt} />
+                  <Card.Img variant="top card-back" src={member.imgFun.src} alt={member.imgFun.alt} />
+                </div>
                 <Card.Body>
                   <div className="card-content">
                     <div className="card-text-container">
@@ -118,7 +121,10 @@ function Team() {
           return (
             <div className="col-md-3" key={key}>
               <Card className="mentor-card" onClick={() => {toggleShow(member.name)}}>
-                <Card.Img variant="top mt-0" src={member.img.src} alt={member.img.alt} />
+                <div className="card-photo">
+                  <Card.Img variant="top card-front" src={member.img.src} alt={member.img.alt} />
+                  <Card.Img variant="top card-back" src={member.imgFun.src} alt={member.imgFun.alt} />
+                </div>
                 <Card.Body>
                   <div className="mentor-card-content">
                     <div className="card-text-container mentor-text">
