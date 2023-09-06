@@ -8,7 +8,8 @@ const Attributions = () => {
                 <iframe
                     id="igem-attribution-form"
                     src="https://attributions.igem.org?team=Stanford&year=2023"
-                >
+                    title="iGEM Attributions Form"
+                    >
                 </iframe>
             </div>
 

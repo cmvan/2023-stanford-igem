@@ -6,15 +6,15 @@ const useHeadingsData = (activeKey, setActiveId) => {
   useEffect(() => {
     const parentID = document.querySelector("#" + activeKey);
     const headingElements = Array.from(parentID.querySelectorAll("h2, h3"));
-
+  
     const newNestedHeadings = getNestedHeadings(headingElements);
     setNestedHeadings(newNestedHeadings);
-
+  
     // Update the active heading ID whenever the active tab changes
     if (nestedHeadings.length > 0) {
       setActiveId(nestedHeadings[0].id);
     }
-  }, [activeKey]);
+  }, [activeKey, setActiveId, nestedHeadings]); 
 
   const getNestedHeadings = (headingElements) => {
     const nestedHeadings = [];
