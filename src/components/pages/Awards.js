@@ -4,7 +4,7 @@ import Template from '../Template'
 const Awards = () => {
     return ( 
         <Template title="Awards">
-            <h1> Hello </h1>
+            <h1> Testing Repo </h1>
         </Template>
     )
 }
