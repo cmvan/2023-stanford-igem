@@ -5,16 +5,17 @@ const useHeadingsData = (activeKey, setActiveId) => {
 
   useEffect(() => {
     const parentID = document.querySelector("#" + activeKey);
+    if (parentID) {
     const headingElements = Array.from(parentID.querySelectorAll("h2, h3"));
-  
     const newNestedHeadings = getNestedHeadings(headingElements);
     setNestedHeadings(newNestedHeadings);
-  
-    // Update the active heading ID whenever the active tab changes
+
     if (nestedHeadings.length > 0) {
       setActiveId(nestedHeadings[0].id);
     }
-  }, [activeKey, setActiveId, nestedHeadings]); 
+  }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+}, [activeKey, setActiveId]);
 
   const getNestedHeadings = (headingElements) => {
     const nestedHeadings = [];
@@ -47,30 +48,36 @@ const Headings = ({ headings, activeId }) => (
           onClick={(e) => {
             e.preventDefault();
             document.querySelector(`#${heading.id}`).scrollIntoView({
-              behavior: "smooth"
+              behavior: "smooth",
             });
           }}
         >
           {heading.title}
         </a>
         {heading.items.length > 0 && (
-          <ul>
-            {heading.items.map((child) => (
-              <li key={child.id} className={child.id === activeId ? "active" : ""}>
-                <a
-                  href={`#${child.id}`}
-                  onClick={(e) => {
-                    e.preventDefault();
-                    document.querySelector(`#${child.id}`).scrollIntoView({
-                      behavior: "smooth"
-                    });
-                  }}
+          // Conditionally render subheadings only when the parent heading is active
+          (heading.id === activeId || heading.items.some(item => item.id === activeId)) && (
+            <ul>
+              {heading.items.map((child) => (
+                <li
+                  key={child.id}
+                  className={child.id === activeId ? "active" : ""}
                 >
-                  {child.title}
-                </a>
-              </li>
-            ))}
-          </ul>
+                  <a
+                    href={`#${child.id}`}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      document.querySelector(`#${child.id}`).scrollIntoView({
+                        behavior: "smooth",
+                      });
+                    }}
+                  >
+                    {child.title}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          )
         )}
       </li>
     ))}
@@ -79,6 +86,7 @@ const Headings = ({ headings, activeId }) => (
 
 const useIntersectionObserver = (setActiveId) => {
   const headingElementsRef = useRef({});
+  console.log(headingElementsRef);
   useEffect(() => {
     const callback = (headings) => {
       headingElementsRef.current = headings.reduce((map, headingElement) => {
@@ -95,18 +103,17 @@ const useIntersectionObserver = (setActiveId) => {
       const getIndexFromId = (id) =>
         headingElements.findIndex((heading) => heading.id === id);
 
-      if (visibleHeadings.length === 1) {
-        setActiveId(visibleHeadings[0].target.id);
-      } else if (visibleHeadings.length > 1) {
-        const sortedVisibleHeadings = visibleHeadings.sort(
-          (a, b) => getIndexFromId(a.target.id) > getIndexFromId(b.target.id)
-        );
-        setActiveId(sortedVisibleHeadings[0].target.id);
+      const firstVisibleHeading = visibleHeadings.find((heading) =>
+        getIndexFromId(heading.target.id) > -1
+      );
+
+      if (firstVisibleHeading) {
+        setActiveId(firstVisibleHeading.target.id);
       }
     };
 
     const observer = new IntersectionObserver(callback, {
-      rootMargin: "0px 0px -40% 0px"
+      rootMargin: "0px 0px -40% 0px",
     });
 
     const headingElements = Array.from(document.querySelectorAll("h2, h3"));
@@ -114,7 +121,8 @@ const useIntersectionObserver = (setActiveId) => {
     headingElements.forEach((element) => observer.observe(element));
 
     return () => observer.disconnect();
-  }, [setActiveId]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 };
 
 
@@ -123,8 +131,42 @@ const TableOfContents = ({ activeKey }) => {
   const { nestedHeadings } = useHeadingsData(activeKey, setActiveId);
   useIntersectionObserver(setActiveId);
 
+  const tocRef = useRef(null);
+
+  // Function to calculate the fade-in and fade-out effect based on scroll position
+  const calculateFadeEffect = () => {
+    if (!tocRef.current) return;
+    const tocElement = tocRef.current;
+    const windowHeight = window.innerHeight;
+    const scrollY = window.scrollY;
+    const tocTop = tocElement.offsetTop;
+    const tocBottom = tocTop + tocElement.clientHeight;
+  
+    const scrollPosition = scrollY + windowHeight/2;
+  
+    if (scrollPosition > tocTop && scrollPosition < tocBottom) {
+      // If the scroll position is within the TOC element, fade it in
+      tocElement.classList.add("fade-in");
+    } else {
+      // If the scroll position is outside the TOC element, fade it out
+      tocElement.classList.remove("fade-in");
+    }
+  };
+
+  useEffect(() => {
+    calculateFadeEffect();
+    window.addEventListener("scroll", calculateFadeEffect);
+    return () => {
+      window.removeEventListener("scroll", calculateFadeEffect);
+    };
+  }, []);
+
   return (
-    <nav aria-label="Table of Contents" className="toc-container">
+    <nav
+      aria-label="Table of Contents"
+      className={`toc-container ${activeId ? "fade-in" : ""} ${activeId ? "fade-out" : ""}`}
+      ref={tocRef}
+    >
       <Headings headings={nestedHeadings} activeId={activeId} />
     </nav>
   );

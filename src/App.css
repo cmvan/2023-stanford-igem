@@ -7,6 +7,7 @@
 
 body {
   overflow-x: hidden;
+  background-color: rgb(234, 235, 241);
 }
 
 h2, h3 {
@@ -309,7 +310,7 @@ nav.table-of-contents {
 }
 
 .custom-shape-divider-top-1688350882 .shape-fill {
-  fill: #ffffff;
+  fill: rgb(234, 235, 241);
 }
 
 .sponsor-logo {
@@ -331,16 +332,16 @@ nav.table-of-contents {
 
 /* ------------ TITLE TEMPLATE  -------------*/
 .title {
-  height: 35rem;
-  background-image: linear-gradient(to right, #a8c0ff, #3f2b96);
+  height: 30rem;
+  background-color: rgb(45, 43, 61);
+  align-items: center;
 }
 
 #title-name{
   text-align: center;
   color: white;
-  font-size: 2rem;
-  padding-top: 11rem;
   font-size: 72px;
+  font-style: bold;
 }
 
 .custom-shape-divider-bottom-1688456140 {
@@ -362,7 +363,7 @@ nav.table-of-contents {
 }
 
 .custom-shape-divider-bottom-1688456140 .shape-fill {
-  fill: rgb(255, 255, 255);
+  fill: rgb(234, 235, 241);
 }
 
 /* ------------ TEAM PAGE -------------*/
@@ -532,4 +533,173 @@ nav.table-of-contents {
 
 .card-buttons {
   display: flex;
+}
+
+/* ------------ EDUCATION PAGE -------------*/
+.nav-tabs {
+  margin: 20px;
+  margin-bottom: 0;
+}
+.nav-link.active {
+  font-weight: bold; /* Make the active tab text bold */
+  color: #fff; /* Change the text color of the active tab */
+}
+
+.nav-link {
+  background-color: #f8f9fa; /* Change the background color of inactive tabs */
+  color: #333; /* Change the text color of inactive tabs */
+}
+.overview-block {
+  width: 60%;
+  height: auto;
+  background-color: #ffffff; /* Background color of the div */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px;
+  padding-bottom: 5px;
+  margin-right: 40px;
+  margin-left: 40px;
+  background-color: #cedbff;
+}
+.info-boxes {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.info-box {
+  width: 30%;
+  height: auto;
+  background-color: #ffffff; /* Background color of the div */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  padding: 20px;
+  padding-bottom: 5px;
+  margin: 10px;
+  background-color: #cedbff;
+}
+.right {
+  margin-left: auto;
+}
+
+.tab-container {
+  margin: 70px;
+  margin-right: 90px;
+  margin-left: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: white;
+}
+
+.tab-content {
+  margin: 50px;
+}
+
+.tab-content h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: blue;
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.toc-index {
+  margin-left: 40px;
+  width: 370px;
+}
+
+.toc-index ul{
+  list-style-type: none;
+}
+
+.toc-index li::before {
+  content: "•"; 
+  margin-right: 10px; 
+  color: #ff583300; 
+  border: 1px solid #3f2b96; 
+  border-radius: 50%;
+  display: inline-block;
+  width: 12px; 
+  height: 12px;
+  line-height: 10px;
+}
+
+.toc-index li li::before {
+  content: "🡲"; 
+  margin-right: 10px; 
+  color: #3f2b96; 
+  border: 1px solid #ff583300; 
+  border-radius: 50%; 
+  display: inline-block; 
+  width: 12px; 
+  height: 12px; 
+  text-align: center;
+  line-height: 16px;
+}
+
+.toc-container {
+  margin-top: 50px;
+  padding-bottom: 40px;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+/* Add the fade-in effect when the .fade-in class is applied */
+.toc-container.fade-in {
+  opacity: 1;
+}
+
+.toc-container li.active > a {
+  color: #ffffff; 
+  background-image: linear-gradient(to right, #81a5ff, #6a5aad);
+  border-radius: 6px;
+  padding: 3px 6px;
+}
+
+.toc-container li > a:hover {
+  color: #a8c1ff;
+}
+
+.photo {
+  width: 15%;
+  margin-left: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 0;
+}
+
+.full-photos {
+  margin: 20px;
+  display: flex; 
+  align-items: center;
+  flex-direction: column;
+}
+
+.med-photo {
+  width: 30em;
+}
+
+.large-photo {
+  width: 45em;
+}
+
+.caption {
+  margin-top: 10px;
+  font-weight: bold;
+}
+.transparent-photo {
+  width: 15%;
+  margin-left: auto;
+  padding: 0;
+}
+
+.row .pair {
+  display: flex; /* Make it a flex container */
+  align-items: center;
+}
+
+.gap {
+  margin-bottom: 40px;
 }
