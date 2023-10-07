@@ -807,3 +807,7 @@ nav.table-of-contents {
 .spacer{
   margin-bottom: 50px;
 }
+
+.play-button img:hover {
+  transform: scale(1.08);
+}
