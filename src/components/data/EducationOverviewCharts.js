@@ -57,7 +57,7 @@ class EducationOverviewCharts extends Component {
         },
         {
           id: "chart3",
-          title: "After this program, do you intend on using the research proposal for future research endeavors? (e.g. science fairs, AP research / school course, etc.).",
+          title: "After this program, do you intend on using your research proposal for future research endeavors (e.g. science fairs, AP research / school course, etc.)?",
           data: {
             labels: ["Yes", "Maybe", "Hopefully!", "No"],
             datasets: [
@@ -105,7 +105,7 @@ class EducationOverviewCharts extends Component {
         },
         {
           id: "chart5",
-          title: "How effective was the group collaboration and student mentorship at providing support during the process of developing a research proposal?",
+          title: "How effective was the group collaboration and mentorship at providing support during the process of developing a research proposal?",
           data: {
             labels: ["Very Effective", "Effective", "Somewhat Effective", "Not Effective At All",],
             datasets: [
@@ -129,7 +129,7 @@ class EducationOverviewCharts extends Component {
         },
         {
           id: "chart6",
-          title: "How effective were the lectures in teaching the foundational bioE and synBio background knowledge necessary for putting together a research proposal?",
+          title: "How effective were the lectures in teaching the foundational bioE and synBio background knowledge necessary for writing a research proposal?",
           data: {
             labels: ["Very Effective", "Effective", "Somewhat Effective", "Not Effective At All"],
             datasets: [

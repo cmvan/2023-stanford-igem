@@ -14,7 +14,7 @@ class SideBySideBarCharts extends Component {
             labels: ["Basic BioE Concepts", "Genetic Circuitry", "Research Process", "BioE Lab Techniques"],
             datasets: [
               {
-                label: "Not At All",
+                label: "None",
                 backgroundColor: "#f08a91",
                 borderColor: "#ec7278",
                 borderWidth: 1,
@@ -51,7 +51,7 @@ class SideBySideBarCharts extends Component {
             labels: ["Basic BioE Concepts", "Genetic Circuitry", "Research Process", "BioE Lab Techniques"],
             datasets: [
               {
-                label: "Not At All",
+                label: "None",
                 backgroundColor: "#f08a91",
                 borderColor: "#ec7278",
                 borderWidth: 1,
