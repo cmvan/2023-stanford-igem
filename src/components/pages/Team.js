@@ -82,10 +82,10 @@ function Team() {
                       <Card.Text>{member.year}</Card.Text>
                     </div>
                     <div className="card-buttons">
-                      <a href={`mailto:${member.email}`} onClick={(e) => e.stopPropagation()}>
+                      <a href={`mailto:${member.email}`} target="_blank" rel="noreferrer" onClick={(e) => e.stopPropagation()}>
                         <FontAwesomeIcon icon={['fas', 'envelope']} />
                       </a>
-                      <a href={member.linkedin} onClick={(e) => e.stopPropagation()}>
+                      <a href={member.linkedin} target="_blank" rel="noreferrer" onClick={(e) => e.stopPropagation()}>
                         <FontAwesomeIcon icon={['fab', 'linkedin']} />
                       </a>
                     </div>
