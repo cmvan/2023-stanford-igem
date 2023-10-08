@@ -457,7 +457,7 @@ function Experiments(){
                                             <ol type="a">
                                                 <li>Incubate with agitation for 1h at 37℃</li>
                                             </ol>
-                                        <li>Add 100 µL of high titer phage lysate (>10^8 PFU / mL)</li>
+                                        <li>Add 100 µL of high titer phage lysate (greater than 10^8 PFU / mL)</li>
                                         <li>Incubate at 37℃ and 275 RPM for ~5 hours or until lysate clears</li>
                                         <li>Collect phage lysate and store at 4℃ until clean up</li>
                                     </ol> 
@@ -553,24 +553,113 @@ function Experiments(){
                                         </ol>
                                 </ol>
                                 <h3 className="content-section-sh" id="phage-6"> Phage DNA Extraction III – Potassium Iodide </h3>
-                                <ol type="1">
-                                    <li>Weigh gel fragment (write weight on tube), then add 3X volume of QG buffer (yellow). Gel was cut into smaller pieces to ensure that agarose is fully dissolved to maximize yields.</li>
-                                    <li>Incubate in the shaker at 50 °C for ~3–5 min at 1000 RPM.</li>
-                                    <li>Add 1 gel volume of isopropyl alcohol (IPA).</li>
-                                    <li>Dispense solution into a Qiaquick Spin Column and centrifuge at 13,300 RPM for 1 min.</li>
-                                    <li>Add 500 μl of PE wash buffer, and centrifuge for 30sec.</li>
-                                    <li>Repeat Step 5.</li>
-                                    <li>Transfer column to new 1.5 ml Eppendorf tube, and add 20 μl of elution buffer directly onto the column, let sit for 4 min, and then centrifuge for 1 min.</li>
-                                </ol>
+                                    <p><b>Materials</b></p>
+                                    <ul>
+                                        <li>3 M Potassium Iodide (pH 6.5, adjusted by acetic acid)</li>
+                                        <li>Silica Spin Columns</li>
+                                        <li>Washing Buffer I (10 mM NaCl, 1 mM Tris-HCl pH 7.5 in 80% Ethanol)</li>
+                                        <li>Washing Buffer II – 95% Ethanol</li>
+                                        <li>Prewarmed Nuclease-free Water (55℃)</li>
+                                    </ul>
+                                    <p><b>Protocol</b></p>
+                                    <ol type="1">
+                                        <li>Add equal volume of 3 M Potassium Iodide to phage resuspension</li>
+                                        <li>Incubate at 4℃ for 1 minute</li>
+                                            <ol type="a">
+                                                <li>Intermittently, vigorously shake mixture</li>
+                                            </ol>
+                                        <li>Transfer DNA slurry to silica-based spin column</li>
+                                            <ol type="a">
+                                                <li>Centrifuge at 9,000 x g for 1 minute</li>
+                                                <li>Aspirate</li>
+                                            </ol>
+                                        <li>Wash column with 750 µL Washing Buffer I</li>
+                                            <ol type="a">
+                                                <li>Centrifuge at 10,000 x g for 1 minute</li>
+                                                <li>Aspirate</li>
+                                            </ol>
+                                        <li>Wash column with 750 µL Washing Buffer II</li>
+                                            <ol type="a">
+                                                <li>Centrifuge at 10,000 x g for one minute</li>
+                                                <li>Aspirate</li>
+                                            </ol>
+                                        <li>Centrifuge dry column at 12,500 x g for two minutes</li>
+                                        <li>Transfer column to 1.7 mL microfuge tube</li>
+                                        <li>Add 50 µL pre-warmed nuclease-free water</li>
+                                            <ol type="a">
+                                                <li>Wait several minutes</li>
+                                            </ol>
+                                        <li>Centrifuge at 12,500 x g for two minutes</li>
+                                        <li>Nanodrop DNA suspension</li>
+                                    </ol>
+                                        
                                 <h3 className="content-section-sh" id="phage-7"> Phage Concentration and Storage </h3>
                                 <ol type="1">
-                                    <li>Weigh gel fragment (write weight on tube), then add 3X volume of QG buffer (yellow). Gel was cut into smaller pieces to ensure that agarose is fully dissolved to maximize yields.</li>
-                                    <li>Incubate in the shaker at 50 °C for ~3–5 min at 1000 RPM.</li>
-                                    <li>Add 1 gel volume of isopropyl alcohol (IPA).</li>
-                                    <li>Dispense solution into a Qiaquick Spin Column and centrifuge at 13,300 RPM for 1 min.</li>
-                                    <li>Add 500 μl of PE wash buffer, and centrifuge for 30sec.</li>
-                                    <li>Repeat Step 5.</li>
-                                    <li>Transfer column to new 1.5 ml Eppendorf tube, and add 20 μl of elution buffer directly onto the column, let sit for 4 min, and then centrifuge for 1 min.</li>
+                                    <li>Add ~13 mL of phage lysate into the upper reservoir of an Amicon filter device</li>
+                                        <ol type="a">
+                                            <li>Required Amicon filter: 100 kDa membrane, 15 mL capacity</li>
+                                        </ol>
+                                    <li>Centrifuge Amicon at 4,000 g for BLANK minutes</li>
+                                        <ol type="a">
+                                            <li>NOTE: Centrifugation times will vary based on phage titer; DO NOT spin the device dry (meaning all lysate is cleared from the filter). If unsure about time, select a shorter spin time, check lysate level, and adjust spin time.</li>
+                                        </ol>
+                                    <li>Carefully discard filtrate into a waste bucket</li>
+                                    <li>Add another volume of phage lysate to upper reservoir</li>
+                                        <ol type="a">
+                                            <li>Repeat centrifugation</li>
+                                        </ol>
+                                    <li>Repeat Step 4 until all phage lysate has been concentrated to less than 10 mL</li>
+                                    <li>Add ~13 mL of SM buffer into the upper reservoir containing concentrate phage lysate</li>
+                                        <ol type="a">
+                                            <li>Centrifuge at 4,000 g for BLANK minutes to wash phage</li>
+                                            <li>Again, DON’T spin device dry</li>
+                                        </ol>
+                                    <li>Repeat wash step and concentrate washed phage lysate to less than 10 mL</li>
+                                    <li>Using a pipette, carefully collect phage lysate from upper reservoir</li>
+                                        <ol type="a">
+                                            <li>Gently wash the surface of the upper reservoir to detach phage from filter</li>
+                                            <li>Alternatively, entire device can be vortexed to assist with phage detachment</li>
+                                        </ol>
+                                    <li>Collect less than 10 mL of concentrated and purified lysate in a 15 mL Falcon tube</li>
+                                    <li>Store at 4℃</li>
+                                </ol>
+                                <h3 className="content-section-sh" id="phage-8"> Phage Plaque Assay </h3>
+                                <ol type="1">
+                                    <li>Prepare Bacterial Culture several hours prior to experiment start</li>
+                                        <ol type="a">
+                                            <li>Dilute overnight E. Coli culture</li>
+                                            <ol type="i"><li>0.3 mL overnight culture into 3 mL LB</li></ol>
+                                            <li>Incubate at 37℃ and 250 RPM until log-phase (OD600 of 0.6 to 0.8)</li>
+                                        </ol>
+                                    <li>Preheat LB Plates and Soft Agar several hours prior to experiment start</li>
+                                        <ol type="a">
+                                            <li>Preheat LB Plates in 37℃ incubator</li>
+                                                <ol type="i"><li>Label Plates #1 through #6</li></ol>
+                                            <li>Preheat top agar in 50℃ water bath</li>
+                                                <ol type="i"><li>Once melted, aliquot 3 mL into six 50 mL Falcon tubes</li></ol>
+                                        </ol>
+                                    <li>Prepare 10-fold serial dilutions</li>
+                                        <ol type="a">
+                                            <li>Prepare six different tubes</li>
+                                                <ol type="i"><li>Label tubes #1–6 (#1 = 10^-1 dilution, etc)</li><li>Pipette 900 ul of LB broth to each tube</li></ol>
+                                            <li>Add 100 µL of phage sample to tube #1</li>
+                                                <ol type="i"><li>Work with flame to ensure phage stock and samples are not contaminated</li></ol>
+                                            <li>Add 100 µL of tube #1’s contents to tube #2</li>
+                                            <li>Finish the remaining tubes by pipetting the contents of the previous number to the next</li>
+                                            <li>In the final tube, remove 100 µL to ensure equal volumes in all samples</li>
+                                        </ol>
+                                    <li>Plating</li>
+                                        <ol type="a">
+                                            <li>Add diluted phage to 0.3 mL of bacterial culture</li>
+                                                <ol type="i"><li>Ensure culture is in log-phase prior to adding phage</li></ol>
+                                            <li>Allow to absorb for 15 minutes</li>
+                                            <li>Add phage-bacteria suspension #1 to a 3 mL melted LB agar Falcon tube</li>
+                                                <ol type="i"><li>Roll agar tube in palm to mix for 2–3 seconds and quickly, but smoothly, pour onto agar surface of LB plate
+                                                </li><li>Carefully tilt the plate around to spread suspension on plate</li><li>Allow melted agar to harden and incubate inverted at 37℃ overnight</li></ol>
+                                            <li>Repeat step c for the other two dilutions</li>
+                                        </ol>
+                                    <li>Determining the number of plaque forming units (PFUs)</li>
+                                        <ol type="i"><li>PFUs per mL = plaques per plate * volume plated in mL * dilution factor</li></ol>
                                 </ol>
                             </section>
                         </Tab>
@@ -578,66 +667,191 @@ function Experiments(){
                             <section id="cellfree">
                                 <h2 className="content-section" id="cellfree-h0">Cell Free Switch Testing Protocols</h2>
                                 <h3 className="content-section-sh" id="cellfree-h1"> Polymerase Chain Reaction</h3>
+                                <p><b>Materials</b></p>
+                                    <ul>
+                                        <li>PURE EXPRESS kit</li>
+                                        <li>Liquid nitrogen</li>
+                                        <li>Black 384-well plate with transparent bottom</li>
+                                        <li>milliQ water</li>
+                                        <li>Switch DNA</li>
+                                        <li>Desired trigger</li>
+                                        <li>Transparent plate seal </li>
+                                        <li>RNAse inhibitor </li>
+                                    </ul>
+                                    <p><b>Protocol</b></p>
+                                    <ol type="1">
+                                        <li>Count the number of reactions (experiments * 3)</li>
+                                        <li>Calculate volume of each reagent to add. Mastermix is a mix of reagents that stay consistent across all your experiments (PURE A, B, RNAse inhibitor). Replicate mix is all the volume necessary for one of your experiments, in triplicate.</li>
+                                        <li>Spray a blade with ethanol, and cut the foil covering the wells that will be used. Account for water wells around the perimeter of experimental wells. </li>
+                                        <li>Preheat the plate reader to the optimal folding temperature of the expression protein</li>
+                                        <li>Get an ice bucket, and collect all your temperature-sensitive reagents (trigger DNA, switch DNA, positive control DNA, PURE EXPRESS mix A, mix B, RNAse inhibitor…). Allow them to thaw on ice. Also place your 384 well plate on ice, to preserve the integrity of the extract for as long as possible.</li>
+                                        <li>Prepare reagents as per the calculations. Make your master mix and eventually replicate mixes in the PCR tubes (the most sterile PCR tubes you can find). Note that ‘water’ in a cell free reaction must be biology-grade nuclease free water. Any contaminants may chew up your experiment. First make your master mix, then from that, make your replicate mixes in PCR tubers. Finally, pipette one reaction into one well in the 384-well-plate. Carefully note how you arrange the conditions in the plate. </li>
+                                        <li>Once you have finished step 7, gently and carefully stick a plate seal onto the top of the plate, minimizing further evaporation. </li>
+                                        <li>Put the 384-well-plate in the plate reader, create a new protocol, and read kinetically every minute for up to 14 hours from the bottom, with the excitation and emission wavelengths corresponding to sfGFP. Think of the ‘read kinetically’ option like a for-loop.</li>
+                                        <li>After reading for up to 14 hours, observe the results and export data.</li>
+                                    </ol>
+                                <h3 className="content-section-sh" id="cellfree-h2"> 759 Lysate Preparation </h3>
+                                <p><b>Day 1: Make Media</b></p>
                                 <ol type="1">
-                                <li>
-                                    Preparing Primer Stocks
+                                <li>Prepare 750 mL 2xYTP per tunair flask. In very large beaker, add MQ water under total volume and start stirring with sitr bar on magnetic stand. Add tryptone and yeast extract first to stirring water, then add salts to help weight down the fluffy reagents
                                     <ol type="a">
-                                        <li>Resuspend primers at 100 uM in Tris-EDTA (TE)</li>
-                                            <ol type="i">
-                                            <li>Prevents freeze-thaw cycles</li>
-                                            </ol>
-                                        <li>Store at –20℃</li>
+                                        <li>5 g NaCl</li>
+                                        <li>16 g tryptone</li>
+                                        <li>10 g yeast extract</li>
+                                        <li>7g K2HPO4</li>
+                                        <li>7g K2HPO4</li>
+                                        <li>7g K2HPO4</li>
+                                        <li>3g KH2PO4</li>
                                     </ol>
                                 </li>
-                                    <li>Thaw Primers, KOD Xtreme Hot Start DNA Polymerase, 2X Xtreme Buffer, and dNTPs (Master Mix components) on ice </li>
-                                    <li>Gently vortex and briefly centrifuge Master Mix components</li>
-                                    <li>Dilutions
-                                        <ol type="a">
-                                        <li>5’ Primer: Dilute small portion to 10 uM</li>
-                                        <li>3’ Primer: Dilute small portion to 10 uM</li>
-                                        <li>Phage DNA: Dilute to 5–10 ng / µL</li>
-                                        </ol>
-                                    </li>
-                                    <li>Standard Reaction Setup: Prepare in 0.2 mL PCR tube on ice
-                                    <ol type="a">
-                                        <li>2X Xtreme Buffer: 25 µL</li>
-                                        <li>dNTPs (2 mM each): 10 µL</li>
-                                        <li>PCR Grade Water: 10 µL</li>
-                                        <li>5’ Primer (10 uM): 1.5 µL</li>
-                                        <li>3’ Primer (10 uM): 1.5 µL</li>
-                                        <li>KOD Xtreme Hot Start DNA Polymerase (1 U / µL): 1 µL</li>
-                                        <li>Template DNA (10 ng phage DNA): 1 µL</li>
-                                        <li><b>Total: 50 µL</b></li>
-                                        </ol>
-                                    </li>
-                                    <li>Gently vortex and spin down reaction sample</li>
-                                    <li>Cycling Parameters
-                                        <ol type="a">
-                                        <li>Polymerase Activation: 94℃ for 2 minutes</li>
-                                        <li>Denature: 98℃ for 10 seconds</li>
-                                        <li>Annealing: Lowest Primer Tm℃ (59.2) for 30 seconds</li>
-                                        <li>Extension: 68℃ for 1 minute / kbp (861 = 1 minute)</li>
-                                        <li>Repeat Steps <b>b</b> through <b>d</b> for 20–40 cycles</li>
-                                        </ol>
-                                        </li>
-                                    <li>Store PCR Product at –20℃ until evaluation</li>
+                                    <li>Once uniformly mixed, pour media into graduated cylinder and fill to end total volume</li>
+                                    <li>Pour back into plastic beaker and stir </li>
+                                    <li>Calibrate pH to 7.2 adding 5N KOH drop wise (using glass droppers in drawer and 5N KOH solution on shelf above weigh stand) * usually takes 7 mL 5N KOH to 2250 mL 2xYTP to get to pH 7.2</li>
+                                    <li>Disperse to 750 mL each to tunair flasks using graduated cylinder</li>
+                                    <li>Add filter top and foil to tunair flask to prevent evaporation</li>
+                                    <li>Prepare 250 mL of 7.2% glucose per L of media in baked 250 mL flask</li>
+                                        <ul>
+                                            <li>Fill baked 250 mL flask with MQ water under volume, add 8g glucose, then fill to volume (marked by indention around neck of bottle) with MQ water</li>
+                                        </ul>
+                                    <li>Prepare 500 mL MQ water per 2 L of media in baked glass jar/flask to autoclave for S30 buffer</li>
+                                    <li>Fill dummy jar with water for temp probe in autoclave</li>
+                                    <li>Take tunair flasks with 2xYTP, glass jars with glucose solution, glass jars with MQ water, and dummy bottle and autoclave</li>
                                 </ol>
-                                <h3 className="content-section-sh" id="cellfree-h2"> Gel Electrophoresis </h3>
+
+                                <p><b>Day 2: Inoculate</b></p>
                                 <ol type="1">
-                                <li>
-                                    Pouring a 1% Agarose Gel:
+                                <li>20 hrs for 759, to 250 mL baffled flask add using sterile technique
                                     <ol type="a">
-                                        <li>Suspend 1g agarose in 100 µL 1X TAE buffer. Microwave and swirl until dissolved.</li>
-                                        <li>Add 10 µL SYBR Safe DNA Gel Stain and mix into molten agarose.</li>
-                                        <li>Pour the gel into the tray and add comb with 8 wells. Allow the gel to solidify.</li>
-                                        <li>Place the gel into the gel box and fill with 1x TAE buffer until covered.</li>
-                                        </ol>
+                                        <li>70 mL regular LB (fluid level should be above baffles but less than ¼ full)</li>
+                                        <li>Bacteria on p10 tip from stabbing glycerol stock</li>
+                                    </ol>
                                 </li>
-                                    <li>Mix the remainder (approx. 10 µL) of each respective PCR product with 2 µL 6x Purple Loading Dye. </li>
-                                    <li>Load 12 µL of Thermo Scientific™ GeneRuler 1 kb DNA Ladder in the first well. Load the prepared DNA samples into each well numerically.</li>
-                                    <li>Run the gel at 75 V for 45 min until the dye line is 60–75% of the way down the gel.</li>
-                                    <li>Image the gel against blue light.</li>
+                                    <li>Set aside ~8 mL LB for blanking </li>
+                                    <li>Incubate starter culture @ 32 degrees C</li>
                                 </ol>
+                                <p><b>Day 3: Harvest</b></p>
+                                <ol type="1">
+                                    <li>Put DTT on ice</li>
+                                    <li>Take OD of starter culture overnight</li>
+                                    <li>Calculate how much to add to your media for starting OD of 0.08</li>
+                                        <ol type="a"><li>1000 mL x 0.08 OD/____ OD reading = _?__ mL of cx to add to 2xYTPG</li></ol>
+                                    <li>Add glucose to 2xYTP in tunair flask and shake</li>
+                                    <li>Inoculate with starter culture according to calculation above</li>
+                                    <li>Remove foil caps and incubate</li>
+                                        <ol type="a"><li>1000 mL x 0.08 OD/____ OD reading = _?__ mL of cx to add to 2xYTPG</li></ol>
+                                    <li>Check OD readings every 20-30 min</li>
+                                        <ol type="a"><li>759 doubling time is 45 minutes, so predict according to table</li></ol>
+                                        <table class="table table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th colSpan={2}>759 (45 min doubling time)</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>0.08</td>
+                                                <td>0 min</td>
+                                            </tr>
+                                            <tr>
+                                                <td>0.16</td>
+                                                <td>45 min</td>
+                                            </tr>
+                                            <tr>
+                                                <td>0.32</td>
+                                                <td>1 hr 30 min</td>
+                                            </tr>
+                                            <tr>
+                                                <td>0.64</td>
+                                                <td>2 hr 15 min</td>
+                                            </tr>
+                                            <tr>
+                                                <td>1.28</td>
+                                                <td>3 hr</td>
+                                            </tr>
+                                            <tr>
+                                                <td>2.56</td>
+                                                <td>3 hr 45 min</td>
+                                            </tr>
+                                            <tr>
+                                                <td>5.12</td>
+                                                <td>4 hr 30 min</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <li>Induce with 1mM IPTG at OD 0.6-0.8 by using serological to pipette 1 mL 1M IPTG into each flask</li>
+                                        <ol type="a">
+                                            <li>1.19 g IPTG in 5 mL nano pure H20 to make 1 M IPTG </li>
+                                            <li>Add 1 mL 1M IPTG to each L of culture to make 1 mM IPTG</li>
+                                            <li>Store at –20 degrees C</li>
+                                        </ol>
+                                    <li>As OD approaches 3 (would prefer 2.8 over 3.2 for 759 especially)</li>
+                                        <ol type="a">
+                                            <li>Prepare S30 buffer with autoclaved water and salts, keep chilled.</li>
+                                            <li>Add chilled rotors to centrifuges</li>
+                                            <li>Retrieve liquid nitrogen</li>
+                                            <li>Set spatulas near centrifuge and bench</li>
+                                            <li>Add bleach to bucket near centrifuge</li>
+                                            <li>Have balance ready, with serological pipette and waste beaker nearby</li>
+                                            <li>Have centrifuge lids assembled</li>
+                                            <li>Have “ice sculptures” made with centrifuge bottles to keep them cold</li>
+                                        </ol>
+                                    <li>Once OD has reached 3.0, pour tunair flasks into 1L centrifuge bottles and balance them on scale with serological pipette</li>
+                                    <li>Spin in chilled centrifuge for 5 min at 8,000 g at 4 degrees C</li>
+                                    <li>Add DTT to S30 buffer (1 mL to 500 mL S30 buffer)</li>
+                                    <li>After spin, dump supernatant into bleach bucket and wipe insides of bottle with kim wipe before inverting to rightside up, store in “ice sculpture”</li>
+                                    <li>With spatula, split pellet in half and scoop one half to 50 mL tube, then the other half to another 50 mL tube</li>
+                                    <li>Rinse with 5 mL chilled S30 buffer and swish spatula vigorously to get all cells in solution. Also pipette up and down to wash bottle sides and spatula. Distribute cell solution evenly to the 2 50 mL tubes</li>
+                                    <li>Add 25 mL chilled S30 buffer to 50 mL tubes and cortex on 7.5 setting, 15-20 s on, 30 s off (on ice)</li>
+                                    <li>Spin for 2 min @ 10,000 g at 4 degrees C in tabletop centrifuge</li>
+                                    <li>Dump supernatant in sink (or bleach bucket)</li>
+                                    <li>Add 25 mL cold S30 buffer and resuspend, repeating spin, resuspension cycle 2 more times</li>
+                                    <li>After the last spin, dump supernatant down sink (or bleach bucket) and wipe inside with a kim wipe before inverting right side up</li>
+                                    <li>Split pellet with pipette tip to increase surface area (P1000)</li>
+                                    <li>Record weight of tubes on tube side and in lab notebook</li>
+                                    <li>Flash freeze in liquid nitrogen, hold down with scoop for 1 min. Store in –80 degrees C</li>
+                                </ol>
+                                <p><b>Day 4: Sonication</b></p>
+                                    <ol type="1">
+                                    <li>Thaw harvested cell pellet for an hour on ice, or for 30 min on ice then in S30 buffer for 15 min</li>
+                                    <li>Set centrifuge to 4 degrees C</li>
+                                    <li>Make S30 buffer with NF water
+                                        <ol type="a">
+                                            <li>24.2 mL NF water</li>
+                                            <li>250 uL tris OAc</li>
+                                            <li>250 uL MgOAc</li>
+                                            <li>250 uL KAc</li>
+                                            <li>50 uL DTT</li>
+                                        </ol>
+                                    </li>
+                                        <li>Thaw DTT and label eppies tubes and store in 4 degrees fridge or cold room</li>
+                                        <li>Resuspend in S30 buffer with 0.8 mL per g wet call mass</li>
+                                        <li>Vortex at 7.5 in 15 s pulses until fully suspended</li>
+                                        <li>Let suspension rest on ice 5 min</li>
+                                        <li>Aliquot 1.4 mL to 1.5 mL tube, pipetting from bottom to avoid foam</li>
+                                        <li>Fill beaker with ice and water for sonication ice bath</li>
+                                        <li>Clean sonicator with ethanol then water into waste beaker before use and between strains</li>
+                                        <li>Sonicate</li>
+                                            <ol type="a">
+                                                <li>Submerge 1.5 mL tube in ice bath and lower sonicator tip halfway into tube</li>
+                                                <li>Sonicate 45 s on, 59 s off, 45 s on, 59 s off, 45 s on at 50% ampl until ~950 J is reached for 1.4 mL, 705 J for 1 mL</li>
+                                                <li>NOTE: Make sure that the tip of the sonicator stays in the middle of the solution. Make sure it isn’t at the surface, or touching the edges of any container. Gently spin the tube as it sonicates.</li>
+                                                <li>NOTE: Before sonicating ethanol the tip of the sonicator gently, then rinse it with DI water. Treat it like you do a pH meter. With gentle kimwipe patting instead of wiping. </li>
+                                            </ol>
+                                        <li>Add 1M DTT to reach concentration of 3mM in tubes (3 uL 1M DTT for 1 mL lysate, 4.2 uL 1M DTT for 1.4 mL lysate) , invert 5-10 x</li>
+                                        <li>Chill 15 mL tubes</li>
+                                        <li>Transfer 820 uL supernatant to fresh eppies</li>
+                                        <li>Place tubes in foil pocket (hobo style) and tape to shaking platform at 37 degrees C, 250 RPM for 1 hr</li>
+                                        <li>Spin at 12,000 g 10 min at 4 degrees C</li>
+                                        <li>Transfer 500 uL supernatant to 15 mL tube, mix by pipette</li>
+                                        <li>Aliquot 100 uL using repeat pipetter in cold room into pre-prepared microcentrifuge tubes</li>
+                                        <li>Flash freeze and store at –80 degrees C</li>
+                                    </ol>
+                                <p><b>Day 4: Testing Lysate</b></p>
+                                    <ol type="1">
+                                        <li>When mixing and adding reagents for lysate, always vortex before adding. Vortex everything except the lysate. </li>
+                                        <li>There are 50 uL lysate per tube. Mix all lysates together before adding. Always add lysate last</li>
+                                        <li>Incubate in clear plate overnight at 30C!!. Then dilute 1:50 with a black bottom plate and image with a plate reader.</li>
+                                    </ol>
                             </section>
                         </Tab>
                     </Tabs>
