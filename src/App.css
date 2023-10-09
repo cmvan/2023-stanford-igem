@@ -58,6 +58,12 @@ header .nav-area {
   margin-left: 7rem;
 }
 
+@media (max-width: 850px) {
+  .logo a {
+    margin-left: 30px;
+  }
+}
+
 #phage-logo {
   margin-top: 10px;
   width: 125px;
@@ -313,15 +319,18 @@ nav.table-of-contents {
   flex-wrap: wrap; /* Allow items to wrap to the next row */
   height: 100%;
   margin-right: 60px;
+  margin-bottom: 60px;
 }
 
 .sponsor-logo {
-  width: 150px;
+  width: 175px;
+  padding: 10px;
 }
 
 @media (max-width: 850px) {
   .sponsor-logo {
-    width: 100px; /* Adjust the width for smaller screens */
+    width: 100px;
+    padding: 5px;
   }
 }
 
@@ -427,7 +436,7 @@ nav.table-of-contents {
 }
 
 /* Media query for smaller screens */
-@media (max-width: 768px) {
+@media (max-width: 850px) {
   #stanford-logo {
     max-width: 200px; /* Adjust the maximum width for smaller screens */
   }
@@ -471,8 +480,7 @@ nav.table-of-contents {
 
 /* ------------ TEAM PAGE -------------*/
 .slideshow {
-  width: 105vw;
-  height: 100vh;
+  height: auto;
   background-color: rgb(45, 43, 61);
   position: relative;
 }
@@ -502,7 +510,7 @@ nav.table-of-contents {
 
 .carousel {
   width: 80vw;
-  height: 100vh;
+  height: auto;
   overflow: hidden;
   position: relative;
   margin-left: auto;
@@ -632,6 +640,47 @@ nav.table-of-contents {
 
 .card-buttons {
   display: flex;
+}
+
+@media (max-width: 1315px) {
+  #team-title {
+    font-size: 48px; /* Adjust the font-size as needed */
+  }
+}
+
+@media (max-width: 1000px) {
+  #team-title {
+    font-size: 32px; /* Adjust the font-size as needed */
+  }
+  #team-caption {
+    font-size: 12px; /* Adjust the font-size as needed */
+  }
+}
+
+@media (max-width: 600px) {
+  .slideshow{
+    margin-top: 80px;
+  }
+  #team-title {
+    font-size: 20px; /* Adjust the font-size as needed */
+  }
+  
+  #team-caption {
+    font-size: 12px; /* Adjust the font-size as needed */
+  }
+}
+
+@media (max-width: 450px) {
+  .slideshow{
+    margin-top: 80px;
+  }
+  #team-title {
+    font-size: 12px; /* Adjust the font-size as needed */
+  }
+  
+  #team-caption {
+    font-size: 8px; /* Adjust the font-size as needed */
+  }
 }
 
 /* ------------ EDUCATION PAGE -------------*/

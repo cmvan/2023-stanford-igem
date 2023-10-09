@@ -13,11 +13,11 @@ library.add(faEnvelope, faLinkedin);
 function ImageCarousel() {
   const [index, setIndex] = useState(0);
   const images = [
-    "https://static.igem.wiki/teams/4951/wiki/team-photos/fullteam-c.jpg",
-    "https://static.igem.wiki/teams/4951/wiki/team-photos/teamphoto1-c.jpg",
-    "https://static.igem.wiki/teams/4951/wiki/team-photos/teamphoto2-pho-edit-c.jpg",
-    "https://static.igem.wiki/teams/4951/wiki/team-photos/mentorphotos1-c4.jpg", 
-    "https://static.igem.wiki/teams/4951/wiki/team-photos/mentorphoto2-c.jpg"
+    "https://static.igem.wiki/teams/4951/wiki/team-photos/fullteam-c-108.jpg",
+    "https://static.igem.wiki/teams/4951/wiki/team-photos/teamphoto1-c-108.jpg",
+    "https://static.igem.wiki/teams/4951/wiki/team-photos/teamphoto2-pho-108.jpg",
+    "https://static.igem.wiki/teams/4951/wiki/team-photos/mentorphotos1-108.jpg", 
+    "https://static.igem.wiki/teams/4951/wiki/team-photos/mentorphoto2-c-108.jpg"
   ];
 
   useEffect(() => {

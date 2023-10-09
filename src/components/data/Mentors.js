@@ -8,7 +8,7 @@ export const mentorInfo = [
       alt: "Photo of Dr. Drew Endy",
     },
     imgFun: {
-      src: "https://static.igem.wiki/teams/4951/wiki/team-photos/drendy.png",
+      src: "https://static.igem.wiki/teams/4951/wiki/team-photos/drewfunny.jpg",
       alt: "Fun Photo of Dr. Drew Endy",
     },
     website: "", 
@@ -27,7 +27,7 @@ export const mentorInfo = [
       alt: "Photo of Dr. Huijun Ring",
     },
     imgFun: {
-      src: "https://static.igem.wiki/teams/4951/wiki/team-photos/drring.png",
+      src: "https://static.igem.wiki/teams/4951/wiki/team-photos/ringfunny.jpg",
       alt: "Fun Photo of Dr. Huijun Ring",
     },
     website: "", 
@@ -46,14 +46,9 @@ export const mentorInfo = [
       alt: "Photo of Dr. Phil Kyriakakis",
     },
     imgFun: {
-      src: "https://static.igem.wiki/teams/4951/wiki/team-photos/philkyriakakis-c.jpg",
+      src: "https://static.igem.wiki/teams/4951/wiki/team-photos/philfunny.jpg",
       alt: "Fun Photo of Dr. Phil Kyriakakis",
     },
-    website: "", 
-    email: "", 
-    linkedin: "",
-    twitter: "", 
-    google: "", 
     bio: "Dr. Phillip Kyriakakis is an incoming Clinical Educator Assistant Professor of Psychiatry and current Senior Research scientist in the Bioengineering Department at the Wu Tsai Institute for Neuroscience. Dr. Kyriakakis completed his undergraduate studies in Biochemistry at UMass Boston, where he worked in Dr. Alexey Veraksa's developmental biology lab and pioneered PhyB optogenetics in animal cells in 2008. He pursued further education at UC San Diego, focusing on cellular programming and metabolism within the Division of Biological Sciences. Following that, Dr. Kyriakakis conducted postdoctoral research in UC San Diego's Bioengineering Department, collaborating with Todd Coleman on the advancement of optogenetic tools and related technologies. In 2021, he transitioned to his current role as a Senior Research Scientist at Stanford University's Wu Tsai Institute for Neurosciences within the Bioengineering Department. Fun Fact: Dr. Kyriakakis has two loud cats that like to “sing” in the middle of the night!",
   },
   {
@@ -65,14 +60,9 @@ export const mentorInfo = [
       alt: "Photo of Dr. Nils Averesch",
     },
     imgFun: {
-      src: "https://static.igem.wiki/teams/4951/wiki/team-photos/draveresch.png",
+      src: "https://static.igem.wiki/teams/4951/wiki/team-photos/nilsfunny.jpg",
       alt: "Fun Photo of Dr. Nils Averesch",
     },
-    website: "", 
-    email: "", 
-    linkedin: "",
-    twitter: "", 
-    google: "", 
     bio: "Dr. Nils Averesch is a research engineer at Stanford’s Department of Civil and Environmental Engineering, and co-investigator of the NASA Center for Utilization of Biological Engineering in Space (CUBES). Previously, Nils was Synthetic Biology task-lead at NASA’s Ames Research Center in the Space Science and Astrobiology Division. He holds a PhD in Metabolic Engineering from the University of Queensland in Australia and an engineer’s degree in Biochemical Engineering, from the Technical University of Dortmund in Germany. Currently, Dr. Averesch’s research revolves around advanced biomaterials for manufacturing. Specifically, his research group designs and constructs microbial cell factories for production of high-performance bioplastics from carbon dioxide. Fun Fact: Nils has participated in a Mars analog mission at the Hawaii Space Exploration Analog and Simulation (HI-SEAS) habitat where he explored in-situ biomanufacturing in support of long-duration space-exploration during.",
   },
   {
@@ -84,14 +74,9 @@ export const mentorInfo = [
       alt: "Photo of Cyrus K.",
     },
     imgFun: {
-      src: "https://static.igem.wiki/teams/4951/wiki/team-photos/cyrus-c.jpg",
+      src: "https://static.igem.wiki/teams/4951/wiki/team-photos/cyrusfunny.png",
       alt: "Fun Photo of Cyrus K.",
     },
-    website: "", 
-    email: "", 
-    linkedin: "",
-    twitter: "", 
-    google: "", 
     bio: "Cyrus is a second-year PhD student in the Bioengineering program at Stanford. He enjoys making elegant computational tools and models that are useful for answering questions in science and engineering. In his spare time, he enjoys the process of learning new things. Fun Fact: Cyrus is currently learning swing dance!",
   },
   {
@@ -106,11 +91,6 @@ export const mentorInfo = [
       src: "https://static.igem.wiki/teams/4951/wiki/team-photos/caroline2.jpg",
       alt: "Fun Photo of Caroline Van",
     },
-    website: "", 
-    email: "", 
-    linkedin: "",
-    twitter: "", 
-    google: "", 
     bio: "Caroline is a senior from Fredericksburg, VA who is double majoring in computer science and French. Previously, she studied the strain-level dynamics following fecal microbiota transplants under Dr. Benjamin Good and the directed evolution of PETases with the 2022 Stanford iGEM team. She's excited to bring her background in computational biology, web development, and finances as an iGEM coordinator. When she’s not coding away, she enjoys engaging with her heritage with the Stanford Vietnamese Student Association, dancing in Stanford Mua Lac Hong, and working at the Bridge Peer Counseling Center.",
   },
   {
@@ -125,11 +105,6 @@ export const mentorInfo = [
       src: "https://static.igem.wiki/teams/4951/wiki/team-photos/gurmen2.jpg",
       alt: "Fun Photo of Gurmen",
     },
-    website: "", 
-    email: "", 
-    linkedin: "",
-    twitter: "", 
-    google: "", 
     bio: "Gurmenjit Bahia (‘24) is a senior studying Biology with a concentration in biochemistry/biophysics from Modesto, CA. She particularly enjoys research revolving around omics and healthcare disparities. Additionally, she is involved with the BIOME (Biological Interdisciplinary Open Maker Environment) and a group advocating for First-generation and/or low-income students known as FLIP. She aspires to become an Orthopedic surgeon and go into global surgery, while continuing to complete research. Aside from her academics, she loves nature, gardening, and long walks. ",
   }
 ];
