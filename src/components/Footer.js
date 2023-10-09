@@ -20,22 +20,23 @@ const Footer = () => {
                                 <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
                             </svg>
                         </div>
-                        <div className="col ft-1">
-                            <img id="stanford-logo" src="https://static.igem.wiki/teams/4951/wiki/graphics/stanfordlogo-1.png" alt="Stanford iGEM Team Logo" /> 
-                            <div className="icons">
-                                <a href="mailto:stanfordigemteam@gmail.com"><FontAwesomeIcon icon={['fas', 'envelope']} /></a>
-                                <a href="https://twitter.com/igemStanford23"><FontAwesomeIcon icon={['fab', 'twitter']} /></a>
-                                <a href="https://www.instagram.com/stanford_igem/?hl=en"><FontAwesomeIcon icon={['fab', 'instagram']} /></a>
-                                <a href="example.com"><FontAwesomeIcon icon={['fab', 'tiktok']} /></a>
+                        <div className="footer-icons">
+                            <div className="col ft-1">
+                                <img id="stanford-logo" src="https://static.igem.wiki/teams/4951/wiki/graphics/stanfordlogo-1.png" alt="Stanford iGEM Team Logo" /> 
+                                <div className="icons">
+                                    <a href="mailto:stanfordigemteam@gmail.com"><FontAwesomeIcon icon={['fas', 'envelope']} /></a>
+                                    <a href="https://twitter.com/igemStanford23"><FontAwesomeIcon icon={['fab', 'twitter']} /></a>
+                                    <a href="https://www.instagram.com/stanford_igem/?hl=en"><FontAwesomeIcon icon={['fab', 'instagram']} /></a>
+                                </div>
                             </div>
-                        </div>
-                        <div className="col-lg sponsors ft-2">
-                            <img className="col sponsor-logo" src="https://static.igem.wiki/teams/4951/wiki/graphics/idtlogo.png" alt="IDT logo"></img>
-                            <img className="col sponsor-logo" src="https://static.igem.wiki/teams/4951/wiki/graphics/stanfordbioelogo.png" alt="Stanford BioE logo"></img>
-                            <img className="col sponsor-logo" src="https://static.igem.wiki/teams/4951/wiki/graphics/biomelogo.png" alt="Stanford BIOME logo"></img>
-                            <img className="col sponsor-logo" src="https://static.igem.wiki/teams/4951/wiki/graphics/neblogo.png" alt="New England BioLabs logo"></img>
-                            <img className="col sponsor-logo" src="https://static.igem.wiki/teams/4951/wiki/graphics/snapgenelogo.png" alt="SnapGene logo"></img>
-                            <img className="col sponsor-logo" src="https://static.igem.wiki/teams/4951/wiki/graphics/twistlogo.png" alt="Twist logo"></img>
+                            <div className="sponsors ft-2">
+                                <img className="sponsor-logo" src="https://static.igem.wiki/teams/4951/wiki/graphics/idtlogo.png" alt="IDT logo"></img>
+                                <img className="sponsor-logo" src="https://static.igem.wiki/teams/4951/wiki/graphics/stanfordbioelogo.png" alt="Stanford BioE logo"></img>
+                                <img className="sponsor-logo" src="https://static.igem.wiki/teams/4951/wiki/graphics/biomelogo.png" alt="Stanford BIOME logo"></img>
+                                <img className="sponsor-logo" src="https://static.igem.wiki/teams/4951/wiki/graphics/neblogo.png" alt="New England BioLabs logo"></img>
+                                <img className="sponsor-logo" src="https://static.igem.wiki/teams/4951/wiki/graphics/snapgenelogo.png" alt="SnapGene logo"></img>
+                                <img className="sponsor-logo" src="https://static.igem.wiki/teams/4951/wiki/graphics/twistlogo.png" alt="Twist logo"></img>
+                            </div>
                         </div>
                     </div>
                 </div>  

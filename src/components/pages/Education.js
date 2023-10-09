@@ -17,7 +17,7 @@ function Education(){
                 <div className="toc-index col-sm-2"> 
                     <TableOfContents activeKey={key}/>
                 </div>
-                <div className="tab-container col-lg">
+                <div className="tab-container col">
                     <Tabs
                         id="controlled-tab-example"
                         activeKey={key}
