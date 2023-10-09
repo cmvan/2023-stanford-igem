@@ -63,21 +63,25 @@ header .nav-area {
 }
 
 .navbar-menu {
-  display: flex;
   list-style: none;
-  justify-content: center; /* Center the navbar items horizontally */
-  align-items: center; /* Center the navbar items vertically */
-  margin-right: 7rem;
-  margin-left: auto;
-  list-style-type: none;
-  margin-bottom: 0;
-  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar-item {
-  margin-top: 10px;
+  margin: 0;
+  padding: 0 15px;
   position: relative;
-  margin-right: 50px;
+}
+
+
+.navbar-title {
+  text-decoration: none;
+  color: #000; /* Adjust the color as needed */
+  font-weight: bold;
 }
 
 .has-dropdown .navbar-title {
@@ -100,7 +104,7 @@ header .nav-area {
   visibility: hidden;
   margin-top: 10px; /* Add a margin to position the dropdown below the navbar */
   padding-bottom: 0px;
-  background-color: rgba(156, 139, 204, 0.8); /* Set the background color to a transparent red */
+  background-color: #3f2b96f3; /* Set the background color to a transparent red */
   opacity: 0; /* Set initial opacity to 0 */
   transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
 }
@@ -137,7 +141,7 @@ header .nav-area {
 .navbar-dropdown-item a {
   display: block;
   text-align: center;
-  color: rgba(33, 37, 41, 1); /* Set the text color to fully opaque */
+  color: white; /* Set the text color to fully opaque */
   text-decoration: none;
   margin: 10px;
   transition: color 0.3s ease-in-out;
@@ -156,6 +160,78 @@ header .nav-area {
 
 .navbar-title:hover {
   color: lightblue;
+}
+
+.mobile-menu-icon {
+  display: none; /* Initially hide the hamburger icon */
+  cursor: pointer;
+  font-size: 24px;
+  color: white; /* Adjust the color as needed */
+  margin-left: auto; 
+  margin-right: 50px;
+}
+
+@media (max-width: 850px) {
+  .navbar-menu {
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    background-color: #3f2b96; /* Match the color theme */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    display: none;
+  }
+
+  .navbar-menu.mobile-menu-open {
+    display: flex;
+  }
+
+  .navbar-item {
+    padding: 15px;
+  }
+
+  .navbar-dropdown {
+    background-color: #3f2b96; /* Match the color theme */
+    border-top: 1px solid #fff; /* Add a white border at the top */
+    padding: 15px;
+    min-width: 200px; /* Make the dropdown wider */
+    border-radius: 0;
+    max-height: 0; /* Initially set max-height to 0 */
+    overflow: hidden; /* Hide content that exceeds max-height */
+    transition: max-height 0.3s ease-in-out; /* Add transition for max-height */
+  }
+
+  .navbar-dropdown-item a {
+    color: #fff; /* Match the color theme */
+    text-decoration: none;
+    margin: 10px 0;
+    transition: color 0.3s ease-in-out;
+  }
+
+  .navbar-dropdown-item a:hover {
+    color: lightblue;
+  }
+
+  .navbar-item:hover .navbar-dropdown {
+    max-height: 1000px; /* Expand the dropdown to a large enough max-height */
+    position: relative; /* Change position to relative */
+    z-index: 1; /* Ensure the expanded dropdown is on top of other elements */
+  }
+
+  .navbar-title {
+    position: relative; /* Add relative positioning to title options */
+    width: 100%; /* Set a fixed width to keep it centered */
+    text-align: center; /* Keep the title centered */
+  }
+
+  .navbar-item:hover .navbar-title {
+    z-index: 0; /* Push down the other title options */
+  }
+
+  .mobile-menu-icon {
+    display: block;
+  }
 }
 
 .progress-container {
@@ -214,20 +290,11 @@ nav.table-of-contents {
   padding: 0;
 }
 
-#stanford-logo{
-  width: 300px;
+.ft-1 {
 }
 
-.ft-1 {
-  margin: 0;
-  padding-bottom: 40px;
-  margin-left: 60px;
-  align-self: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+.sponsor-logo {
+  width: 16%;
 }
 
 .ft-1 h3 {
@@ -299,7 +366,6 @@ nav.table-of-contents {
   width: 100%;
   overflow: hidden;
   line-height: 0;
-  
 }
 
 .custom-shape-divider-top-1688350882 svg {
@@ -313,21 +379,23 @@ nav.table-of-contents {
   fill: rgb(234, 235, 241);
 }
 
-.sponsor-logo {
-  width: 16%;
-  margin: 10px;
-}
-
-.sponsors { 
-  margin-bottom: 30px;
-}
-
 .end-note {
   margin-top: 40px !important;
 }
 
 .end-note p{
   font-size: 12px;
+}
+
+#stanford-logo {
+  max-width: 300px; /* Default maximum width */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  #stanford-logo {
+    max-width: 200px; /* Adjust the maximum width for smaller screens */
+  }
 }
 
 /* ------------ TITLE TEMPLATE  -------------*/
@@ -440,15 +508,8 @@ nav.table-of-contents {
 }
 
 .card-heading {
-  padding-bottom: 30px;
+  margin-top: 60px;
   font-weight: bold;
-}
-.member-cards {
-  margin: 0;
-  padding: 50px;
-  padding-left: 200px;
-  padding-right: 200px;
-  text-align: center;
 }
 
 .student-card p{
@@ -459,21 +520,20 @@ nav.table-of-contents {
   font-size: 0.9rem;
 }
 
-.mentor-cards{
+.member-cards, .mentor-cards {
   margin: 0;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding: 50px;
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.mentor-card{
-  margin-top: 15px;
-  margin-bottom: 50px;
-}
-
-.student-card {
-  margin-top: 0px;
-  margin-bottom: 50px;
+.student-card, .mentor-card {
+  margin: 0 10px;
+  flex: 1;
+  max-width: 300px;
+  background-color: rgb(234, 235, 241);
 }
 
 .card-photo{
@@ -504,6 +564,10 @@ nav.table-of-contents {
   height: 25px;
   width: 25px;
   margin: 2px;
+}
+
+.card-body{
+  background-color: rgb(234, 235, 241);
 }
 
 .card{

@@ -65,11 +65,11 @@ function Team() {
           <ImageCarousel />
         </div>
       </div>
-      <div className="row member-cards">
-        <h1 className="card-heading">Team Members</h1>
+      <h1 className="card-heading center">Team Members</h1>
+      <div className="member-cards">
         {membersInfo.map((member, key) => {
           return (
-            <div className="col-lg-3" key={key}>
+            <div className="a-card" key={key}>
               <Card className="student-card" onClick={() => {toggleShow(member.name)}}>
                 <div className="card-photo">
                   <Card.Img variant="top card-front" src={member.img.src} alt={member.img.alt} />
@@ -115,11 +115,11 @@ function Team() {
           )
         })}
       </div>
-      <div className="row mentor-cards">
-        <h1 className="card-heading">Faculty & Coordinators</h1>
+      <h1 className="center"><b>Faculty & Coordinators</b></h1>
+      <div className="mentor-cards">
         {mentorInfo.map((member, key) => {
           return (
-            <div className="col-md-3" key={key}>
+            <div className="a-card" key={key}>
               <Card className="mentor-card" onClick={() => {toggleShow(member.name)}}>
                 <div className="card-photo">
                   <Card.Img variant="top card-front" src={member.img.src} alt={member.img.alt} />
