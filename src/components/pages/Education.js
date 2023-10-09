@@ -271,9 +271,108 @@ function Education(){
                         </Tab>
                         <Tab eventKey="program" title="BioE Research Program">
                             <section id="program">
-                                <h2 className="content-section" id="overview-1"> Overview </h2>
-                                <h3 className="content-section" id="test-1-1"> Hi</h3>
-                                <h2 className="content-section" id="overview-1-1"> Overview </h2>
+                                <h2 className="content-section" id="edprogram-1"> Guest Speakers</h2>
+                                <h3 className="content-section-sh" id="edprogram-1-1">Dr. Alex Engel</h3>
+                                <div className="guest-speaker spacer">
+                                    <img className="med-photo" src="https://static.igem.wiki/teams/4951/wiki/guest-speaker-alex.png" alt="Stanford OSE Logo"></img>
+                                    <div className='row info-boxes'> 
+                                    <article className="quote-box1">
+                                        <p>"The way Dr. Engel presented his area of expertise was clear and concise. I was very engaged the whole time."</p></article>
+                                        <article className="quote-box1">
+                                        <p>"I liked Dr. Alex's story the most as his work was most easily applied and seen in the real world, I also loved the different color food."</p></article>
+                                        <article className="quote-box1">
+                                        <p>"His talk was both educational and fun! I could tell that Dr. Alex really loves his work, and that's really inspiring."</p></article>
+                                    </div>
+                                </div>
+                                <h3 className="content-section-sh" id="edprogram-1-2">Cyrus K</h3>
+                                <div className="guest-speaker spacer">
+                                    <div className='row info-boxes'> 
+                                    <article className="quote-box1">
+                                        <p>"I liked the idea of being exposed to all that intricate math and how it can aggregate into something so important in bioengineering."</p></article>
+                                        <article className="quote-box1">
+                                        <p>"What was interesting to me was the fact that researchers must decipher the biological “language” spoken by proteins, genes, and metabolites, by translating it into mathematical expressions."</p></article>
+                                        <article className="quote-box1">
+                                        <p>"As someone very into computer science, learning how you can model cells using simulations was amazing. My favorite aspect was seeing the model in 3D."</p></article>
+                                    </div>
+                                    <img className="med-photo" src="https://static.igem.wiki/teams/4951/wiki/guest-speaker-cyrus.png" alt="Stanford OSE Logo"></img>
+                                </div>
+                                <h3 className="content-section-sh" id="edprogram-1-3">Dr. Rogelio Hernández Lopez</h3>
+                                <div className="guest-speaker spacer">
+                                    <img className="med-photo" src="https://static.igem.wiki/teams/4951/wiki/guest-speaker-rogelio-herna-ndez-lo-pez.png" alt="Stanford OSE Logo"></img>
+                                    <div className='row info-boxes'> 
+                                    <article className="quote-box1">
+                                        <p>"The presentation was really interesting. It really got me thinking about all types of possibilities that there are for fighting against diseases and other unwanted things."</p></article>
+                                        <article className="quote-box1">
+                                        <p>"My favorite aspect was his visuals showing how CAR T-Cell Therapy affected the cancerous cells inside of bodies."</p></article>
+                                        <article className="quote-box1">
+                                        <p>"I liked his research about how they didn't just stop at creating synthetic receptors but also went to creating something to differentiate from different concentrations of antigens in the target cells"</p></article>
+                                    </div>
+                                </div>
+                                <h3 className="content-section-sh" id="edprogram-1-4">Dr. Huijun Ring </h3>
+                                <div className="guest-speaker spacer">
+                                    <div className='row info-boxes'> 
+                                    <article className="quote-box1">
+                                        <p>"I thought it was really interesting! I never really thought about the potential intersection between bioengineering and entrepreneurship."</p></article>
+                                        <article className="quote-box1">
+                                        <p>"Dr. Ring has inspired me to continue working hard as a high school student in order to achieve greater things in the future."</p></article>
+                                        <article className="quote-box1">
+                                        <p>"She talked about her entrepreneurship experience and it was personally admirable to see a woman breaking boundaries in STEM."</p></article>
+                                    </div>
+                                    <img className="med-photo" src="https://static.igem.wiki/teams/4951/wiki/guest-speaker-post-dr-ring.png" alt="Stanford OSE Logo"></img>
+                                </div>
+                                <h3 className="content-section-sh" id="edprogram-1-5">Dr. Philip Kyriakakis</h3>
+                                <div className="guest-speaker spacer">
+                                    <img className="med-photo" src="https://static.igem.wiki/teams/4951/wiki/guest-speaker-phil.png" alt="Stanford OSE Logo"></img>
+                                    <div className='row info-boxes'> 
+                                    <article className="quote-box1">
+                                        <p>"It was really interesting how we are able to map the entire brain using neurons and electricity. It was honestly motivational and got me to work."</p></article>
+                                        <article className="quote-box1">
+                                        <p>"Optogenetics was very fascinating to me as researchers would essentially be able to activate and deactivate a specific gene without the need for surgery. "</p></article>
+                                        <article className="quote-box1">
+                                        <p>"Dr. Kyriakaki’s talk and story was incredible to hear about. He not only talked about his work, but the challenges he faced during the process as well. "</p></article>
+                                    </div>
+                                </div>
+                                <h3 className="content-section-sh" id="edprogram-1-6">Dr. Milana Trounce</h3>
+                                <div className="guest-speaker spacer">
+                                    <div className='row info-boxes'> 
+                                    <article className="quote-box1">
+                                        <p>"It was really interesting to see all the factors that can potentially go in to ensuring that infectious diseases are spread at a lower rate."</p></article>
+                                        <article className="quote-box1">
+                                        <p>"Extremely informative and applicable! I like how Dr. Trounce centered her entire lesson on COVID-19 and used common misperceptions and biosecurity concerns to make the lesson both applicable."</p></article>
+                                        <article className="quote-box1">
+                                        <p>"I have heard other professors talk about this topic but I’ve never really heard someone explain it very secure and fluently as how Dr. Trounce did."</p></article>
+                                    </div>
+                                    <img className="med-photo" src="https://static.igem.wiki/teams/4951/wiki/guest-speaker-trounce.png" alt="Stanford OSE Logo"></img>
+                                </div>
+                                
+                                <h2 className="content-section" id="edprogram-2"> Program Structure & Outreach </h2>
+                                <p>The Stanford iGEM team has taken the initiative to empower students of all backgrounds to the capabilities of synthetic biology through our educational initiative. Rooted in our values and priority of accessibility, interdependent learning, collaboration, dialogue, the Stanford iGEM Bioengineering Research Program aims to diversity the application of bioengineering. Our four-week virtual program spanned from August 21 to September 15, offering mentorship from engineers, guest speakers from leading industries and fields, professional development workshops, and research proposal workshops. Students engage tri-weekly every Monday, Wednesday, and Friday while having the opportunity to pursue specialized research projects by exploring bioengineering applications with synthetic biologists, professors, researchers, engineers, and entrepreneurs. From application of bioengineering to project workshops along with personalized mentoring, scholars developed proficiency in bioengineering techniques to present their crafted research proposal in our Stanford iGEM Bioengineering Research Proposal Symposium. </p>
+                                    <h3 className="content-section-sh" id="edprogram-2-1"> Syllabus</h3>
+                                        <iframe className="spacer" title="Syllabus" width="100%" height="620" src="https://static.igem.wiki/teams/4951/wiki/igem-bioe-research-program-syllabus.pdf"></iframe>
+                                    <h3 className="content-section-sh" id="edprogram-2-2"> Outreach</h3>
+                                    <p>Ensuring opportunities in all experiences, backgrounds, and intellectual ingenuity, the Stanford iGEM team initiative extensive outreach to ensure accessibility of Synthetic biology to all learning communities. Our outreach efforts and engagement initiated in the middle of July, spanning until the start of our program. Avenues of our spanned from a variety of domains that include social media platforms like Stanford iGEM, Stanford Bioengineering Twitter and Instagram, Bioengineering faculty, outreach to high school counselors across the United States, advocacy groups for carbon footprint, and in first-generation and low-income communities like Thrive Scholar, Questbridge, FLI Home Server, and Matriculate. Our outreach efforts are heavily rooted in accessibility to learn a fascinating topic like synthetic biology. For this reason, we prioritize our outreach efforts in empathizing our virtual aspects to reach those from all backgrounds and locations along with conveying our program component and support to ensure that those who are new to synthetic biology and research are propelled to learn and join the realms of synthetic biology. </p>
+                                <h2 className="content-section" id="edprogram-3"> Research Proposal Symposium</h2>
+                                    <p>Our curriculum paved the way in ensuring students feel empowered to practice their science communication amongst sharing their passion amongst their fellow cohort. Through lectures, office hours, project workshops, students had the opportunity to transform their intellectual ingenuity into a research proposal that was presented at the Symposium!<br></br><br></br>At our symposiums we were awarded three prizes from the <b>Stanford JEDI (Justice, Equity, Diversity, & Inclusion) Department</b> in recognition of exemplary work and initiative to positively impact the community for all. For students that completed all of our program’s deliverables, students were awarded with a certification of excellence!<br></br><br></br>Below is the schedule for the symposium, along with some of the proposal titles from our program cohort:<br></br></p>
+                                    <iframe title="Symposium" width="100%" height="620" src="https://static.igem.wiki/teams/4951/wiki/education/education/final-stanford-igem-bioengineering-research-symposium-schedule-update.pdf"></iframe>
+                                <h2 className="content-section" id="edprogram-4"> Additional Student Feedback </h2>
+                                <div className='row info-boxes spacer'>
+                                    <article className="quote-box">
+                                    <p>"This program has taught me the many applications of bioengineering and how valuable the work that this field produces is. Everyone in the cohort is very friendly and helpful and it is very inspiring to see how passionate everyone is."</p></article>
+                                    <article className="quote-box">
+                                    <p>"This program has helped me realize that bioengineering is the future. There are so many aspects to explore and so many opportunities to revolutionize the field. It gave me the potential to make an impact through research."</p></article>
+                                    <article className="quote-box">
+                                    <p>"Speaking of this program, it has influenced my thoughts and views, especially with regard to research and other materials that require extensive knowledge, also how to write a research paper and gaining assistance from other team members and work together with my team to produce an effective paper. Again, I'd be very appreciative of such a community. "</p></article>
+                                    <article className="quote-box">
+                                    <p>"This program did more than just teach me. I went into iGEM expecting to be assigned large packets of work, tests, and other requirements that usually come with a science program on the first day, but instead, I came into an environment that opened its arms to greet me. The iGEM team did an outstanding job in presenting, running, and setting up the entire event to help scholars like me get the tools that they need to succeed."</p></article>
+                                    <article className="quote-box">
+                                    <p>"I struggle navigating scholarly articles, so in that regard the program really pushed my boundaries. It was very useful practice though. As was writing my first research proposal! I especially liked how people were so ready to talk/socialize together/help each other in chat."</p></article>
+                                    <article className="quote-box">
+                                    <p>"I feel that this program made me passionate about building things like robots and prosthetics. I have been trying so hard to find what I like and this program allowed me to find it. I will miss talking to my teammates and the energetic mentors that tried so hard to make this program work and teach us new things."</p></article>
+                                    <article className="quote-box">
+                                    <p>"This program made me reflect on my future career. I entered this program wanting to be a neurosurgeon but I am leaving wanting to be a neuroscientist/ologiest. I truly enjoy the research aspect of science and want to continue it so THANK YOU IGEM!!!"</p></article>
+                                    <article className="quote-box">
+                                    <p>"I found the guest speakers most valuable as they gave so much of their time into helping us learn. Because of their years-worth of knowledge, it was such a breeze to be able to understand complex topics as they broke them down into easier pills to swallow. I understood and have learned so much from topics ranging from designer babies to red light therapy for animal neuronal correction."</p></article>
+                                </div>
                             </section>
                         </Tab>
                         <Tab eventKey="game" title="Phil's Laberia">
