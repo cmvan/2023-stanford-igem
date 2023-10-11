@@ -3,6 +3,7 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { faTwitter, faInstagram, faTiktok } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 library.add(faEnvelope, faTwitter, faInstagram, faTiktok);
 
@@ -46,19 +47,19 @@ const Footer = () => {
                         <h5>Project</h5>
                         <ul>
                             <li className="nav-item">
-                                <a className="" href="/stanford/description">Description</a>
+                                <Link to="/description">Description</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="" href="/stanford/design">Design</a>
+                                <Link to="/design">Design</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="" href="/stanford/engineering">Engineering</a>
+                                <Link to="/engineering">Engineering</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="" href="/stanford/implementation">Implementation</a>
+                                <Link to="/implementation">Implementation</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="" href="/stanford/results">Results</a>
+                                <Link to="/results">Results</Link>
                             </li>
                         </ul>
                         </div>
@@ -66,19 +67,19 @@ const Footer = () => {
                         <h5>Wet Lab</h5>
                         <ul>
                             <li className="nav-item">
-                                <a className="" href="/stanford/part-collection">Part Collection</a>
+                                <Link to="/part-collection">Part Collection</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="" href="/stanford/parts">Parts</a>
+                                <Link to="/parts">Parts</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="" href="/stanford/experiments">Experiments</a>
+                                <Link to="/experiments">Experiments</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="" href="/stanford/safety">Safety</a>
+                                <Link to="/safety">Safety</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="" href="/stanford/notebook">Notebook</a>
+                                <Link to="/notebook">Notebook</Link>
                             </li>
                         </ul>
                         </div>
@@ -86,13 +87,13 @@ const Footer = () => {
                         <h5>Team</h5>
                         <ul>
                             <li className="nav-item">
-                                <a className="" href="/stanford/team">Our Team</a>
+                                <Link to="/team">Our Team</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="" href="/stanford/attributions">Attributions</a>
+                                <Link to="/attributions">Attributions</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="" href="/stanford/contribution">Our Contribution</a>
+                                <Link to="/contribution">Our Contribution</Link>
                             </li>
                         </ul>
                         </div>
@@ -100,10 +101,10 @@ const Footer = () => {
                         <h5>IHP / Education </h5>
                         <ul>
                             <li className="nav-item">
-                                <a className="" href="/stanford/human-practices">Human Practices</a>
+                                <Link to="/human-practices">Human Practices</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="" href="/stanford/education">Education</a>
+                                <Link to="/education">Education</Link>
                             </li>
                         </ul>
                         </div>
