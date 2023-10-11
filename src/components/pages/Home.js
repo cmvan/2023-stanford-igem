@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Template2 from '../Template2';
 import HomeAnimationLogo from '../HomeAnimationLogo';
+import Raindrop from '../Raindrop';
 
 const Home = () => {
   const [countedNumbers, setCountedNumbers] = useState({
@@ -43,7 +44,7 @@ const Home = () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
-
+  
   const startNumberCounting = () => {
     const endCount1 = 10; // Final number for Statistic 1
     const endCount2 = 2.8; // Final number for Statistic 2
@@ -97,10 +98,10 @@ const Home = () => {
           <h2>Lake Merritt – a vast tidal lagoon located just in our backyards, Oakland, CA – has been plagued by deteriorating water quality, exacerbated by antibiotic resistance contamination.</h2>
         </div>
         <div className="flex-item">
-          <img src="your-photo-url-1.jpg" alt="AR Bacteria" />
+          <img src="https://static.igem.wiki/teams/4951/wiki/graphics/arbacteria.svg" alt="AR Bacteria" />
         </div>
-        <div className="flex-item">
-          <img src="your-photo-url-2.jpg" alt="Lake" />
+        <div className="flex-item" id="pin-drawing">
+          <img src="https://static.igem.wiki/teams/4951/wiki/graphics/pinlocation.svg" alt="Lake" />
         </div>
         <div className="flex-item">
           <h2>Lake Merritt serves as a microcosm of a critical, time-sensitive challenge…</h2>
@@ -109,7 +110,7 @@ const Home = () => {
           <h2>The global rise in antibiotic resistance is an urgent public health crisis that demands innovative solutions. The consequences of inaction are dire.</h2>
         </div>
         <div className="flex-item">
-          <img src="your-photo-url-3.jpg" alt="Upward Trend" />
+          <img src="https://static.igem.wiki/teams/4951/wiki/graphics/upwardgraph4.svg" alt="Upward Trend" />
         </div>
       </div>
       <div className="home-statistics center number-section">
@@ -141,10 +142,11 @@ const Home = () => {
       </div>
       <div className="home-flex center next-section">
         <div className="center spacer">
-          <h2>Once present in water sources, antibiotic resistance rapidly spreads throughout an environment through horizontal gene transfer, making it a persistent and difficult problem to address. Antibiotic-resistant bacteria is introduced to the environment through,</h2>
+          <h2>Once present in water sources, antibiotic resistance rapidly spreads throughout an environment through horizontal gene transfer, making it a persistent and difficult problem to address. Antibiotic-resistant bacteria is introduced to the environment through</h2>
         </div>
+        <Raindrop />
         <div className="flex-item">
-          <img src="your-photo-url-2.jpg" alt="Cow" />
+          <img src="https://static.igem.wiki/teams/4951/wiki/graphics/cow.svg" alt="Cow" />
         </div>
         <div className="flex-item">
           <h2>overuse of antibiotics in livestock and agriculture</h2>
@@ -153,13 +155,13 @@ const Home = () => {
           <h2>urban storm water runoff, </h2>
         </div>
         <div className="flex-item">
-          <img src="your-photo-url-2.jpg" alt="Wastewater" />
+          <img src="https://static.igem.wiki/teams/4951/wiki/graphics/sewage1.svg" alt="Wastewater" />
         </div>
         <div className="flex-item">
-          <img src="your-photo-url-2.jpg" alt="Medicine" />
+          <img src="https://static.igem.wiki/teams/4951/wiki/graphics/medicine2-01.svg" alt="Medicine" />
         </div>
         <div className="flex-item">
-          <h2>and hospital wastewater.</h2>
+          <h2>and hospital wastewater...</h2>
         </div>
       </div>
       <div className="bottom-wave"></div>

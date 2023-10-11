@@ -1,6 +1,7 @@
-import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import { useLocation } from 'react-router-dom';
+import React, { useEffect } from 'react';
 
 import { Routes, Route } from 'react-router-dom';
 import Description from './components/pages/Description';
@@ -22,6 +23,13 @@ import Contribution from './components/pages/Contribution';
 
 
 function App() {
+  const location = useLocation();
+
+  // Scroll to the top of the page when the route changes
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
+
   return (
     <Routes>
       <Route path="/" element={<Home />} />

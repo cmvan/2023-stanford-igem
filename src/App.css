@@ -111,7 +111,6 @@ header .nav-area {
   border-radius: 0.5rem;
   visibility: hidden;
   margin-top: 10px; /* Add a margin to position the dropdown below the navbar */
-  padding-bottom: 0px;
   background-color: #3f2b96f3; /* Set the background color to a transparent red */
   opacity: 0; /* Set initial opacity to 0 */
   transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
@@ -1234,6 +1233,7 @@ nav.table-of-contents {
   flex-direction: column; /* Stack text and image vertically within each column */
   align-items: center; /* Center text and image vertically within each column */
   text-align: center; /* Center text horizontally within each column */
+  justify-content: center;
 }
 
 .flex-item img {
@@ -1371,3 +1371,32 @@ nav.table-of-contents {
   padding-left: 100px;
 }
 
+#pin-drawing img{
+  width: 40%;
+}
+
+.go-up {
+  position: fixed;
+  bottom: 20px; /* Adjust as needed */
+  right: 20px; /* Adjust as needed */
+  z-index: 1000; /* Adjust as needed */
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.go-up.show {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.go-up button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.go-up img {
+  width: 60px; /* Adjust as needed */
+  height: 60px; /* Adjust as needed */
+}

@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from 'prop-types';
 import Navbar from './Navbar';
 import Footer from './Footer';
-// import { Link } from 'react-router-dom';
+import GoUp from './GoUp';
 
 function Template({ title, children }) {
   return (
@@ -15,6 +15,7 @@ function Template({ title, children }) {
         {children}
       </div>
       <Footer />
+      <GoUp />
     </>
   )
 }
