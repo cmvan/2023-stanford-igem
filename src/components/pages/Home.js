@@ -149,7 +149,7 @@ const Home = () => {
           <img src="https://static.igem.wiki/teams/4951/wiki/graphics/cow.svg" alt="Cow" />
         </div>
         <div className="flex-item">
-          <h2>overuse of antibiotics in livestock and agriculture</h2>
+          <h2>overuse of antibiotics in livestock and agriculture,</h2>
         </div>
         <div className="flex-item">
           <h2>urban storm water runoff, </h2>
