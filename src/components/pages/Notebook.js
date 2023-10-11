@@ -4,7 +4,7 @@ import Template from '../Template'
 const Notebook = () => {
     return ( 
         <Template title="Notebook">
-            <h1> Hello </h1>
+            <iframe className="lab-notebook" title="Lab-Notebook" width="100%" height="900" src="https://static.igem.wiki/teams/4951/wiki/stanford-igem-lab-notebook-compressed.pdf"></iframe>
         </Template>
     )
 }

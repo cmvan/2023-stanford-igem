@@ -1,6 +1,7 @@
 export const MenuTitles = [
     {
         title: "Project",
+        display: "Project",
         submenu: [
             {
                 title: "description", 
@@ -25,6 +26,7 @@ export const MenuTitles = [
         ]
     },{
         title: "Wet Lab",
+        display: "Wet Lab",
         submenu: [
             {
                 title: "part-collection", 
@@ -48,27 +50,8 @@ export const MenuTitles = [
             }
         ]
     },{
-        title: "Human Practices",
-        submenu: [
-            {
-                title: "human-practices", 
-                display: "Integrated Human Practices"
-            },
-            {
-                title: "communication", 
-                display: "Communication"
-            },
-            {
-                title: "sustainable", 
-                display: "Sustainable Development"
-            },
-            {
-                title: "education", 
-                display: "Education"
-            }
-        ]
-    },{
         title: "Team",
+        display: "Team",
         submenu: [
             {
                 title: "team", 
@@ -84,7 +67,11 @@ export const MenuTitles = [
             }
         ]
     },{
-        title: "Awards"
+        title: "human-practices",
+        display: "Human Practices",
+    }, {
+        title: "education",
+        display: "Education",
     }
-    
+
 ]

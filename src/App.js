@@ -15,13 +15,10 @@ import Experiments from './components/pages/Experiments';
 import Safety from './components/pages/Safety';
 import Notebook from './components/pages/Notebook';
 import HumanPractices from './components/pages/IntegratedHumanPractices';
-import Communication from './components/pages/Communication';
-import SustainableDevelopment from './components/pages/SustainableDevelopment';
 import Education from './components/pages/Education';
 import Team from './components/pages/Team';
 import Attributions from './components/pages/Attributions';
 import Contribution from './components/pages/Contribution';
-import Awards from './components/pages/Awards';
 
 
 function App() {
@@ -39,13 +36,10 @@ function App() {
       <Route path="/safety" element={<Safety />} />
       <Route path="/notebook" element={<Notebook />} />
       <Route path="/human-practices" element={<HumanPractices />} />
-      <Route path="/communication" element={<Communication />} />
-      <Route path="/sustainable" element={<SustainableDevelopment />} />
       <Route path="/education" element={<Education />} />
       <Route path="/team" element={<Team />} />
       <Route path="/attributions" element={<Attributions />} />
       <Route path="/contribution" element={<Contribution />} />
-      <Route path="/awards" element={<Awards />} />
     </Routes>
   );
 }

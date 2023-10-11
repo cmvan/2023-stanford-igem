@@ -83,23 +83,6 @@ const Footer = () => {
                         </ul>
                         </div>
                         <div className="col ft-3">
-                        <h5>Human Practices</h5>
-                        <ul>
-                            <li className="nav-item">
-                                <a className="" href="/IntegratedHumanPractices">Integrated Human Practices</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="" href="/Communication">Communication</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="" href="/SustainableDevelopment">Sustainable Development</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="" href="/Education">Education</a>
-                            </li>
-                        </ul>
-                        </div>
-                        <div className="col ft-3">
                         <h5>Team</h5>
                         <ul>
                             <li className="nav-item">
@@ -114,12 +97,15 @@ const Footer = () => {
                         </ul>
                         </div>
                         <div className="col ft-3">
-                            <h5>Awards</h5>
-                            <ul>
-                                <li className="nav-item">
-                                    <a className="" href="/Awards">Awards</a>
-                                </li>
-                            </ul>
+                        <h5>IHP / Education </h5>
+                        <ul>
+                            <li className="nav-item">
+                                <a className="" href="/IntegratedHumanPractices">Human Practices</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="" href="/education">Education</a>
+                            </li>
+                        </ul>
                         </div>
                         <div className="row end-note">
                             <p>© 2023 - Content on this site is licensed under a

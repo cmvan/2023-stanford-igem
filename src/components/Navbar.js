@@ -77,7 +77,7 @@ const Navbar = () => {
                     </>
                   ) : (
                     <Link to={`/${menu.title}`} className="navbar-title">
-                      {menu.title}
+                      {menu.display}
                     </Link>
                   )}
                 </li>

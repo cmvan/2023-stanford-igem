@@ -252,7 +252,7 @@ header .nav-area {
 
 .progress-line {
   width: 100%;
-  background-color: rgb(190, 221, 236);
+  background-color: #cffcff;;
   height: 100%;
 }
 
@@ -285,12 +285,12 @@ nav.table-of-contents {
 
 
 .toc-container li.active > a {
-  color: blue;
+  color: #3f2b96;
 }
 
 
 .toc-container li > a:hover {
-  color: blue;
+  color: #3f2b96;
 }
 
 /* ------------ FOOTER -------------*/ 
@@ -448,7 +448,26 @@ nav.table-of-contents {
   height: 30rem;
   background-color: rgb(45, 43, 61);
   align-items: center;
+  background-image: url("https://static.igem.wiki/teams/4951/wiki/graphics/header-art-3-01.svg");
+  background-size: 100% auto; /* Set width to 100% and height to auto */
+  background-position: bottom;
+  background-repeat: no-repeat;
+  text-shadow: 1px 1px 1px #9e9eae,
+               1px 2px 1px #9e9eae,
+               1px 3px 1px #9e9eae,
+               1px 4px 1px #9e9eae,
+               1px 5px 1px #9e9eae,
+               1px 6px 1px #9e9eae,
+               1px 7px 1px #9e9eae,
+               1px 8px 1px #9e9eae,
+               1px 9px 1px #9e9eae,
+               1px 10px 1px #9e9eae,
+               1px 18px 6px rgba(16, 16, 16, 0.4),
+               1px 22px 10px rgba(16, 16, 16, 0.2),
+               1px 25px 35px rgba(16, 16, 16, 0.2),
+               1px 30px 60px rgba(16, 16, 16, 0.4);
 }
+
 
 #title-name{
   text-align: center;
@@ -708,7 +727,7 @@ nav.table-of-contents {
   padding-bottom: 5px;
   margin-right: 40px;
   margin-left: 40px;
-  background-color: #cedbff;
+  background-color: #cffcff;
 }
 .info-boxes {
   display: flex;
@@ -724,7 +743,7 @@ nav.table-of-contents {
   padding: 20px;
   padding-bottom: 5px;
   margin: 10px;
-  background-color: #cedbff;
+  background-color: #cffcff;;
 }
 
 .statistic-box {
@@ -812,8 +831,11 @@ nav.table-of-contents {
 .tab-content h2 {
   text-align: center;
   margin-bottom: 30px;
-  color: blue;
+  color: #cffcff;;
   font-weight: bold;
+  text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000,
+               1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+
 }
 
 .center {
@@ -1024,3 +1046,328 @@ nav.table-of-contents {
 .mt-4{
   margin: 1.5px;
 }
+
+/* ------------ HOME PAGE -------------*/ 
+.animation-container {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh; /* Half of the viewport height */
+  flex-direction: column; /* Display elements vertically */
+}
+
+.text-animation {
+  margin: 150px;
+  text-align: left;
+  font-size: 48px;
+  color: #fff;
+  position: absolute; 
+  left: 0; /* Align text to the left */
+  opacity: 1;
+  transition: opacity 2s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .text-animation {
+    margin: 50px;
+    font-size: 24px; /* Adjust the font size for smaller screens */
+  }
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+}
+
+.animation-container img {
+  max-width: 800px;
+  opacity: 0;
+  animation: glow 2s infinite;
+}
+
+.home-header-top {
+  margin-top: 60px;
+  padding-top: 50px;
+  background-color: rgb(45, 43, 61);
+  padding-bottom: 150px;
+  position: relative;
+}
+
+@keyframes glow {
+  0% {
+    filter: drop-shadow(0 0 5px rgba(168, 193, 255, 0.5)); /* Light blue glow */
+  }
+  50% {
+    filter: drop-shadow(0 0 10px rgba(168, 193, 255, 0.8));
+  }
+  100% {
+    filter: drop-shadow(0 0 5px rgba(168, 193, 255, 0.5));
+  }
+}
+
+.wave {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0; /* Position it at the bottom of the .home-header-top div */
+  height: 120px;
+  background-image: url('https://static.igem.wiki/teams/4951/wiki/graphics/wave1.svg');
+  background-position: 0 0;
+  background-repeat: repeat-x;
+  background-size: 100%;
+  animation: wave 6.5s infinite ease-in-out alternate;
+}
+
+.wave::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.6;
+  height: 160px;
+  background-image: url('https://static.igem.wiki/teams/4951/wiki/graphics/wave1.svg');
+  background-position: 0 0;
+  background-repeat: repeat-x;
+  background-size: 150%;
+  animation: wave 7s infinite ease-in backwards;
+}
+
+.wave::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.4;
+  height: 160px;
+  background-image: url('https://static.igem.wiki/teams/4951/wiki/graphics/wave1.svg');
+  background-position: 0 0;
+  background-repeat: repeat-x;
+  background-size: 60%;
+  animation: wave 8s infinite linear forwards;
+}
+
+.bottom-wave {
+  left: 0;
+  right: 0;
+  height: 120px;
+  background-image: url('https://static.igem.wiki/teams/4951/wiki/graphics/wave1.svg');
+  background-position: 0 0;
+  background-repeat: repeat-x;
+  background-size: 100%;
+  animation: wave 6.5s infinite ease-in-out alternate;
+}
+
+.bottom-wave::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  opacity: 0.6;
+  height: 160px;
+  background-image: url('https://static.igem.wiki/teams/4951/wiki/graphics/wave1.svg');
+  background-position: 0 0;
+  background-repeat: repeat-x;
+  background-size: 150%;
+  animation: wave 7s infinite ease-in backwards;
+}
+
+.bottom-wave::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  opacity: 0.4;
+  height: 160px;
+  background-image: url('https://static.igem.wiki/teams/4951/wiki/graphics/wave1.svg');
+  background-position: 0 0;
+  background-repeat: repeat-x;
+  background-size: 60%;
+  animation: wave 8s infinite linear forwards;
+}
+
+@keyframes wave {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 15vw 2vh;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.home-statistics{
+  background-color: #0099FF;
+  height: 560px;
+  padding: 100px;
+  color: white;
+}
+
+.home-statistics h1{
+  margin-top: 95px;
+}
+
+@media (max-width: 768px) {
+  .home-statistics h1 {
+    font-size: 24px; /* Adjust the font size for smaller screens */
+  }
+}
+
+.home-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Adjust alignment as needed */
+  padding: 100px;
+  padding-bottom: 40px;
+}
+
+.flex-item {
+  flex: 0 0 calc(50% - 10px); /* Create two columns; adjust the width and spacing as needed */
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column; /* Stack text and image vertically within each column */
+  align-items: center; /* Center text and image vertically within each column */
+  text-align: center; /* Center text horizontally within each column */
+}
+
+.flex-item img {
+  max-width: 100%; /* Ensure images don't exceed the column width */
+}
+
+.statistic-column {
+  display: inline-block;
+  margin-right: 20px;
+  vertical-align: top; /* Align columns to the top */
+  width: calc(33.33% - 40px); /* Set column width with some spacing */
+}
+
+/* Style for the numbers */
+.hidden-number {
+  font-size: 64px;
+  font-weight: bold;
+}
+
+/* Style for the units */
+.unit {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/* Style for the description */
+.description {
+  font-size: 24px;
+  word-wrap: break-word; /* Allow text to wrap within the column */
+  margin-top: 5px; /* Add some space between number and description */
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+@media (max-width: 768px) {
+  .home-statistics {
+    padding: 10px; /* Adjust the font size for smaller screens */
+    height: auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+
+  .hidden-number {
+    font-size: 24px; /* Decrease number font size on smaller screens */
+  }
+
+  .unit {
+    font-size: 12px; /* Decrease unit font size on smaller screens */
+  }
+
+  .description {
+    font-size: 12px; /* Decrease description font size on smaller screens */
+    word-wrap: normal;
+  }
+
+  .statistic-column {
+    width: calc(33.33% - 20px); /* Set column width with some spacing */
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out; /* You can adjust the transition duration and timing function as needed */
+  opacity: 1;
+}
+
+.hidden-text {
+  opacity: 0;
+  transition: opacity 1s ease-in-out; /* You can adjust the transition duration and timing function as needed */
+}
+
+.visible-text {
+  opacity: 1;
+}
+
+.home-section{
+  padding: 100px;
+}
+
+.column-container {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 10px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.column h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.column p {
+  font-size: 24px;
+}
+
+.column:nth-child(1) h2 {
+  color:  #cc8cf7;
+}
+
+.column:nth-child(2) h2 {
+  color: #ec7278;
+}
+
+.column:nth-child(3) h2 {
+  color: #59a378;
+}
+
+.d-header{
+  color: #cffcff;;
+  font-weight: bold;
+  text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000,
+               1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+}
+
+.video-container iframe {
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 3px 20px;
+}
+
+.lab-notebook {
+  padding: 100px;
+  padding-right: 200px;
+  padding-left: 200px;
+}
+
+.references{
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
