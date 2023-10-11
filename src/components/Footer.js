@@ -25,6 +25,7 @@ const Footer = () => {
                             <div className="col ft-1">
                                 <img id="stanford-logo" src="https://static.igem.wiki/teams/4951/wiki/graphics/stanfordlogo-1.png" alt="Stanford iGEM Team Logo" /> 
                                 <div className="icons">
+                                    <p>a</p>
                                     <a href="mailto:stanfordigemteam@gmail.com"><FontAwesomeIcon icon={['fas', 'envelope']} /></a>
                                     <a href="https://twitter.com/igemStanford23"><FontAwesomeIcon icon={['fab', 'twitter']} /></a>
                                     <a href="https://www.instagram.com/stanford_igem/?hl=en"><FontAwesomeIcon icon={['fab', 'instagram']} /></a>
