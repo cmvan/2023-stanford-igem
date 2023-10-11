@@ -46,19 +46,19 @@ const Footer = () => {
                         <h5>Project</h5>
                         <ul>
                             <li className="nav-item">
-                                <a className="" href="/Description">Description</a>
+                                <a className="" href="/stanford/description">Description</a>
                             </li>
                             <li className="nav-item">
-                                <a className="" href="/Design">Design</a>
+                                <a className="" href="/stanford/design">Design</a>
                             </li>
                             <li className="nav-item">
-                                <a className="" href="/Engineering">Engineering</a>
+                                <a className="" href="/stanford/engineering">Engineering</a>
                             </li>
                             <li className="nav-item">
-                                <a className="" href="/Implementation">Implementation</a>
+                                <a className="" href="/stanford/implementation">Implementation</a>
                             </li>
                             <li className="nav-item">
-                                <a className="" href="/Results">Results</a>
+                                <a className="" href="/stanford/results">Results</a>
                             </li>
                         </ul>
                         </div>
@@ -66,19 +66,19 @@ const Footer = () => {
                         <h5>Wet Lab</h5>
                         <ul>
                             <li className="nav-item">
-                                <a className="" href="/PartCollection">Part Collection</a>
+                                <a className="" href="/stanford/part-collection">Part Collection</a>
                             </li>
                             <li className="nav-item">
-                                <a className="" href="/Parts">Parts</a>
+                                <a className="" href="/stanford/parts">Parts</a>
                             </li>
                             <li className="nav-item">
-                                <a className="" href="/Experiments">Experiments</a>
+                                <a className="" href="/stanford/experiments">Experiments</a>
                             </li>
                             <li className="nav-item">
-                                <a className="" href="/Safety">Safety</a>
+                                <a className="" href="/stanford/safety">Safety</a>
                             </li>
                             <li className="nav-item">
-                                <a className="" href="/Notebook">Notebook</a>
+                                <a className="" href="/stanford/notebook">Notebook</a>
                             </li>
                         </ul>
                         </div>
@@ -86,13 +86,13 @@ const Footer = () => {
                         <h5>Team</h5>
                         <ul>
                             <li className="nav-item">
-                                <a className="" href="/OurTeam">Our Team</a>
+                                <a className="" href="/stanford/team">Our Team</a>
                             </li>
                             <li className="nav-item">
-                                <a className="" href="/Attributions">Attributions</a>
+                                <a className="" href="/stanford/attributions">Attributions</a>
                             </li>
                             <li className="nav-item">
-                                <a className="" href="/OurContribution">Our Contribution</a>
+                                <a className="" href="/stanford/contribution">Our Contribution</a>
                             </li>
                         </ul>
                         </div>
@@ -100,10 +100,10 @@ const Footer = () => {
                         <h5>IHP / Education </h5>
                         <ul>
                             <li className="nav-item">
-                                <a className="" href="/IntegratedHumanPractices">Human Practices</a>
+                                <a className="" href="/stanford/human-practices">Human Practices</a>
                             </li>
                             <li className="nav-item">
-                                <a className="" href="/education">Education</a>
+                                <a className="" href="/stanford/education">Education</a>
                             </li>
                         </ul>
                         </div>
