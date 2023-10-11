@@ -8,10 +8,6 @@ export const MenuTitles = [
                 display: "Description"
             },
             {
-                title: "design", 
-                display: "Design"
-            },
-            {
                 title: "engineering",
                 display: "Engineering"
             },

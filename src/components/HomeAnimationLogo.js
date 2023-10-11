@@ -10,7 +10,7 @@ const HomeAnimationLogo = () => {
 
     const typeText = async () => {
       for (let i = 0; i <= animatedText.length; i++) {
-        await new Promise((resolve) => setTimeout(resolve, 70));
+        await new Promise((resolve) => setTimeout(resolve, 50));
         setText(animatedText.slice(0, i) + '|');
       }
 
@@ -32,7 +32,7 @@ const HomeAnimationLogo = () => {
         <span>{text}</span>
       </div>
       <img
-        src="https://static.igem.wiki/teams/4951/wiki/graphics/arclogo2.svg"
+        src="https://static.igem.wiki/teams/4951/wiki/graphics/phagelogofinal.svg"
         alt="Logo"
         style={{
           display: 'block',

@@ -448,7 +448,7 @@ nav.table-of-contents {
   background-color: rgb(45, 43, 61);
   align-items: center;
   background-image: url("https://static.igem.wiki/teams/4951/wiki/graphics/header-art-3-01.svg");
-  background-size: 100% auto; /* Set width to 100% and height to auto */
+  background-size: 100% auto;
   background-position: bottom;
   background-repeat: no-repeat;
   text-shadow: 1px 1px 1px #9e9eae,
@@ -770,6 +770,18 @@ nav.table-of-contents {
   align-content: center;
 }
 
+.wide-box {
+  width: 70%;
+  height: auto;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  padding: 20px;
+  padding-bottom: 5px;
+  margin: 10px;
+  align-content: center;
+}
+
 .statistic-box h4 {
   font-size: 3rem;
 }
@@ -1076,7 +1088,7 @@ nav.table-of-contents {
 
 .fade-out {
   opacity: 0;
-  transition: opacity 2s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
 }
 
 .animation-container img {

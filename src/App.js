@@ -6,7 +6,6 @@ import React, { useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Description from './components/pages/Description';
 import Home from './components/pages/Home';
-import Design from './components/pages/Design';
 import Engineering from './components/pages/Engineering';
 import Implementation from './components/pages/Implementation';
 import Results from './components/pages/Results';
@@ -34,7 +33,6 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/description" element={<Description />} />
-      <Route path="/design" element={<Design />} />
       <Route path="/engineering" element={<Engineering />} />
       <Route path="/implementation" element={<Implementation />} />
       <Route path="/results" element={<Results />} />

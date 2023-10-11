@@ -382,10 +382,164 @@ function Education(){
                                 <h3 className="content-section-sh" id="phil-1-1"> Game Design </h3>
                                 <p>Before developing the game, many considerations were taken into account. (1) Games are most enjoyable when players are given agency. Agency is the player’s ability to interact with the game’s world, giving their actions significance. Games with little agency fail to immerse the player. For an educational game to be fun and engaging, it should allow for agency. To incorporate this idea, Phil’s Laberia has top-down movement, allowing for players to use their keyboard to control the playable bunny character. By giving players the ability to move, it can stimulate being in an actual lab environment. Like in real life, players have to walk around the lab to collect items for the experiment. This core mechanic brings dimensionality to the world of Phil’s Laberia. </p>
                                 <p>(2) Lab protocols are often difficult to digest, because they involve many steps and measurements. For students who are unfamiliar with the concepts of bioengineering, this can deter them from learning the main ideas of each protocol. Thus, Phil’s Laberia abstracts the main ideas of each protocol available in the game. For example, extracting DNA from jellyfish is simplified below through these steps: </p>
+                                <div className='row info-boxes spacer'>
+                                    <article className="wide-box">
+                                        <h5 className="center"><b>Extracting Jellyfish DNA Game Protocol</b></h5>
+                                        <ol>
+                                            <li><b>Workbench:</b> NaCl + MilliQ Water (50 mL)  + Dish Soap → DIY Lysis Buffer </li>
+                                            <li><b>Workbench:</b> Jellyfish Smush + DIY Lysis Buffer + Empty 1.5 mL Eppendorf Tube → Lysed Jellyfish Smush</li>
+                                            <li><b>Centrifuge:</b> Lysed Jellyfish Smush → Separated Lysed Jellyfish</li>
+                                            <li><b>Workbench:</b> Separated Lysed Jellyfish → Lysed Jellyfish Supernatant</li>
+                                            <li><b>Workbench:</b> Lysed Jellyfish Supernatant + Isopropanol → Precipitated Jellyfish DNA</li>
+                                            <li><b>Centrifuge:</b> Precipitated Jellyfish DNA →  Separated Jellyfish DNA</li>
+                                            <li><b>Workbench:</b> Separated Jellyfish DNA→ Jellyfish DNA Pellet</li>
+                                            <li><b>Workbench:</b> Jellyfish DNA Pellet + MilliQ Water (50 mL)→ Jellyfish DNA</li>
+                                        </ol>
+                                    </article>
+                                </div>
                                 <p>To follow the “recipe” for DNA Extraction, the player would collect salt, dish soap, and a 50 mL conical from the drawer. Then they would have to walk over to the sink, where the milliQ water dispenser is. After equipping the empty conical, they can interact with the dispenser to collect water. Afterwards, the items can be dragged and dropped from their inventory to the workbench slots to stimulate pipetting or mixing the items together to make a DIY lysis buffer. Afterwards, the rest of the steps can be followed to obtain a final product of jellyfish DNA. Upon turning in the final product, the round ends and the player wins! </p>
                                 <p>(3) Lab machines should be able to reflect some sort of realism. While you would have to learn how to use a lab machine in real life in order conduct experiments (e.g. learning what buttons to press to get the right settings on a thermocycler or clicking the right buttons for a nanodrop machine), Phil’s Laberia simplifies the usage of machines. The game abstracted machinery by accepting an input item and then returning an output item after ‘x’ amount of time. Some machines like the centrifuge add additional realism by only running when there is an even number of items added. </p>
                                 <h2 className="content-section" id="phil-2"> Game Development </h2>
                                 <p>The game was developed on the Unity Game Engine using the C# programming language. All art was done on Aseprite, an image editor primarily used for pixel art drawing and animation. Below is a table with all the scripts written for the game and an explanation of what each one does in order to describe how functionality was coded within the game. In addition to coding all the functionality through the scripts below, UI had to be created, recipes and items had to be added as scriptable objects, and animations had to be created using blend trees in Unity. </p>
+                                <table class="table table-bordered">
+                                    <thead>
+                                            <tr>
+                                                <th>Script Name</th>
+                                                <th>Functionality</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>PlayerController.cs (99 lines)</td>
+                                                <td>used to control player movement and interaction with objects</td>
+                                            </tr>
+                                            <tr>
+                                                <td>CameraManager.cs (44 lines)</td>
+                                                <td>controls the camera relative to the player’s position </td>
+                                            </tr>
+                                            <tr>
+                                                <td>BehindSomething.cs (33 lines)</td>
+                                                <td>makes the player transparent if they walk behind an object (for visual appeal)</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ChangeRenderer.cs (27 lines)</td>
+                                                <td>changes the sprite of something if interacted with by the character</td>
+                                            </tr>
+                                            <tr>
+                                                <td>AnimateTitle.cs (31 lines) </td>
+                                                <td>for UI purposes; makes title of game on home screen bounce up and down</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Counter.cs (56 lines)</td>
+                                                <td>allows for ice bucket to be placed on a counter</td>
+                                            </tr>
+                                            <tr>
+                                                <td>CraftingManager.cs (31 lines)</td>
+                                                <td>manages the workbench so that players can add items together to get a product</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Dialogue.cs (105 lines)</td>
+                                                <td>initializes and manages an array of dialogue texts, which can be adjusted in the Unity editor to make new dialogue for each NPC</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Dispenser.cs (35 lines)</td>
+                                                <td>takes in a certain item, immediately returns another upon interaction (ice machine, milliQ water dispenser) </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Interactable.cs (29 lines)</td>
+                                                <td>allows for lab equipment to be interacted with by player</td>
+                                            </tr>
+                                            <tr>
+                                                <td>LabTourMachine.cs (202 lines)</td>
+                                                <td>handles UI popups for the lab tour level</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Machine.cs (108 lines)</td>
+                                                <td>takes in timeCycle, maxObjects, a multiplier value, and a list of compatible items in order to make all machines work in game</td>
+                                            </tr>
+                                            <tr>
+                                                <td>MachineSlot.cs (96 lines)</td>
+                                                <td>controls UI to display what is currently inside of a machine</td>
+                                            </tr>
+                                            <tr>
+                                                <td>PopUpUI (20 lines)</td>
+                                                <td>allows for toggle of UI</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ProductSlot.cs (84 lines)</td>
+                                                <td>manages the workbench’s resulting product UI and allows for player to click on it to retrieve item</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Recipe.cs (9 lines)</td>
+                                                <td>creates a scriptable object, meaning recipes can easily be created and expanded on</td>
+                                            </tr>
+                                            <tr>
+                                                <td>RecipeArray.cs (9 lines)</td>
+                                                <td>scriptable object to manage a collection of recipes</td>
+                                            </tr>
+                                            <tr>
+                                                <td>RecipeManager.cs (51 lines)</td>
+                                                <td>efficiently checks if player created a valid combination of reagents and materials to get a product or not</td>
+                                            </tr>
+                                            <tr>
+                                                <td>SceneController.cs (26 lines)</td>
+                                                <td>controls the different levels of the game</td>
+                                            </tr>
+                                            <tr>
+                                                <td>SoundEffects.cs (60 lines)</td>
+                                                <td>functions that play different SFXs</td>
+                                            </tr>
+                                            <tr>
+                                                <td>TurnIn.cs (29 lines)</td>
+                                                <td>allows for win condition of game</td>
+                                            </tr>
+                                            <tr>
+                                                <td>WorkbenchSlot (89 lines)</td>
+                                                <td>manages the workbench slots, where players can drag items into to make products</td>
+                                            </tr>
+                                            <tr>
+                                                <td>DraggableItem.cs (29 lines)</td>
+                                                <td>allows for items to be dragged in the inventory</td>
+                                            </tr>
+                                            <tr>
+                                                <td>EquippedItem.cs (80 lines)</td>
+                                                <td>allows player to equip an item</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Inventory.cs (47 lines)</td>
+                                                <td>manages when items are added into an inventory</td>
+                                            </tr>
+                                            <tr>
+                                                <td>InventorySlot.cs (139 lines)</td>
+                                                <td>holds the data for a given inventory item, allows players to move inventory slots around</td>
+                                            </tr>
+                                            <tr>
+                                                <td>InventoryUI.cs (55 lines)</td>
+                                                <td>updates the UI and data for the inventory slots as needed</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Item.cs (26 lines) </td>
+                                                <td>scriptable object to maintain data for over 80+ items</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ItemPickUp.cs (32 lines)</td>
+                                                <td>allows for player to pick up items</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ToggleUI.cs (15 lines)</td>
+                                                <td>allows for player to toggle inventory UI</td>
+                                            </tr>
+                                            <tr>
+                                                <td>StorageSlot.cs (74 lines)</td>
+                                                <td>allows for player to pick up items from the different types of storage units</td>
+                                            </tr>
+                                            <tr>
+                                                <td>StorageUI.cs (45 lines)</td>
+                                                <td>adjusts what items are displayed in the storage slots (for the different types of storage units)</td>
+                                            </tr>
+                                        </tbody>
+                                        <div className="spacer"></div>
+                                    </table>
                             </section>
                         </Tab>
                     </Tabs>
