@@ -1,0 +1,162 @@
+/* Lato Fonts */
+@font-face {
+  font-family: "Lato";
+  src: url("https://static.igem.wiki/teams/4951/wiki/lato/lato-thin.ttf");
+  src: url("https://static.igem.wiki/teams/4951/wiki/lato/lato-thin.ttf")
+    format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("https://static.igem.wiki/teams/4951/wiki/lato/lato-thinitalic.ttf");
+  src: url("https://static.igem.wiki/teams/4951/wiki/lato/lato-thinitalic.ttf")
+    format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("https://static.igem.wiki/teams/4951/wiki/lato/lato-extralight.ttf");
+  src: url("https://static.igem.wiki/teams/4951/wiki/lato/lato-extralight.ttf")
+    format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("https://static.igem.wiki/teams/4951/wiki/lato/lato-extralightitalic.ttf");
+  src: url("https://static.igem.wiki/teams/4951/wiki/lato/lato-extralightitalic.ttf")
+    format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("https://static.igem.wiki/teams/4951/wiki/lato/lato-light.ttf");
+  src: url("https://static.igem.wiki/teams/4951/wiki/lato/lato-light.ttf")
+    format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("https://static.igem.wiki/teams/4951/wiki/lato/lato-lightitalic.ttf");
+  src: url("https://static.igem.wiki/teams/4951/wiki/lato/lato-lightitalic.ttf")
+    format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("https://static.igem.wiki/teams/4951/wiki/lato/lato-regular.ttf");
+  src: url("https://static.igem.wiki/teams/4951/wiki/lato/lato-regular.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("https://static.igem.wiki/teams/4951/wiki/lato/lato-italic.ttf");
+  src: url("https://static.igem.wiki/teams/4951/wiki/lato/lato-italic.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("https://static.igem.wiki/teams/4951/wiki/lato/lato-medium.ttf");
+  src: url("https://static.igem.wiki/teams/4951/wiki/lato/lato-medium.ttf")
+    format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("https://static.igem.wiki/teams/4951/wiki/lato/lato-mediumitalic.ttf");
+  src: url("https://static.igem.wiki/teams/4951/wiki/lato/lato-mediumitalic.ttf")
+    format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("https://static.igem.wiki/teams/4951/wiki/lato/lato-semibold.ttf");
+  src: url("https://static.igem.wiki/teams/4951/wiki/lato/lato-semibold.ttf")
+    format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("https://static.igem.wiki/teams/4951/wiki/lato/lato-semibolditalic.ttf");
+  src: url("https://static.igem.wiki/teams/4951/wiki/lato/lato-semibolditalic.ttf")
+    format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("https://static.igem.wiki/teams/4951/wiki/lato/lato-bold.ttf");
+  src: url("https://static.igem.wiki/teams/4951/wiki/lato/lato-bold.ttf")
+    format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("https://static.igem.wiki/teams/4951/wiki/lato/lato-bolditalic.ttf");
+  src: url("https://static.igem.wiki/teams/4951/wiki/lato/lato-bolditalic.ttf")
+    format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("https://static.igem.wiki/teams/4951/wiki/lato/lato-extrabold.ttf");
+  src: url("https://static.igem.wiki/teams/4951/wiki/lato/lato-extrabold.ttf")
+    format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("https://static.igem.wiki/teams/4951/wiki/lato/lato-extrabolditalic.ttf");
+  src: url("https://static.igem.wiki/teams/4951/wiki/lato/lato-extrabolditalic.ttf")
+    format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("https://static.igem.wiki/teams/4951/wiki/lato/lato-black.ttf");
+  src: url("https://static.igem.wiki/teams/4951/wiki/lato/lato-black.ttf")
+    format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("https://static.igem.wiki/teams/4951/wiki/lato/lato-blackitalic.ttf");
+  src: url("https://static.igem.wiki/teams/4951/wiki/lato/lato-blackitalic.ttf")
+    format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
