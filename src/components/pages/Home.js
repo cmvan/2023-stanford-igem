@@ -12,7 +12,7 @@ const Home = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const revealThreshold = window.innerHeight / 2; // Adjust this threshold as needed
+      const revealThreshold = window.innerHeight / 3; // Adjust this threshold as needed
       const scrollPosition = window.scrollY;
 
       const elements = document.querySelectorAll('.hidden-text');
@@ -88,9 +88,9 @@ const Home = () => {
         <HomeAnimationLogo />
         <div className="wave"></div>
       </div>
-      <div className="home-statistics center">
+      <div className="home-statistics center extra-space">
         <h1 className="hidden-text">
-          At Stanford iGEM, we aim to control the lytic activity of bacteriophages by integrating synthetic RNA switches to selectively target bacteria containing an antibiotic resistance gene.
+          Antibiotic resistance in the environment harms human health, reduces the effectiveness of antibiotics, and creates ecological imbalances.<br></br><br></br>At Stanford iGEM, we aim to control the lytic activity of bacteriophages by integrating synthetic RNA switches to selectively target bacteria containing an antibiotic resistance gene.
         </h1>
       </div>
       <div className="home-flex center">
@@ -165,7 +165,7 @@ const Home = () => {
         </div>
       </div>
       <div className="bottom-wave"></div>
-      <div className="home-statistics center">
+      <div className="home-statistics center extra-space">
         <h1>
           and all of these sources of contamination end up in<br></br>bodies of water like Lake Merritt.
         </h1>

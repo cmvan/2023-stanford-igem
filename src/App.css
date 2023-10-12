@@ -447,7 +447,7 @@ nav.table-of-contents {
   height: 30rem;
   background-color: rgb(45, 43, 61);
   align-items: center;
-  background-image: url("https://static.igem.wiki/teams/4951/wiki/graphics/header-art-3-01.svg");
+  background-image: url("https://static.igem.wiki/teams/4951/wiki/graphics/header-art-3-02-01.svg");
   background-size: 100% auto;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -1215,9 +1215,13 @@ nav.table-of-contents {
 
 .home-statistics{
   background-color: #0099FF;
-  height: 560px;
+  height: auto;
   padding: 100px;
   color: white;
+}
+
+.extra-space{
+  padding-bottom: 150px;
 }
 
 .home-statistics h1{
