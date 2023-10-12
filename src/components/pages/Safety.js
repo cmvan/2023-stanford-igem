@@ -488,7 +488,7 @@ const Safety = () => {
                 <ol>
                   <li>
                     First, we consulted <strong>Professor Paul Bollyky</strong>,{" "}
-                    <strong>Edze Westra</strong>, and
+                    <strong>Edze Westra</strong>, and{" "}
                     <strong>Vivek Mutalik</strong> for insights on
                     phage-resistant bacteria, phage evolution of host range, and
                     more.{" "}
