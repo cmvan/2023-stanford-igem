@@ -5,6 +5,10 @@
   font-family: 'Lato', sans-serif;
 }
 
+a{
+  text-decoration: none;
+}
+
 body {
   overflow-x: hidden;
   max-width: 100%;
