@@ -98,8 +98,8 @@ const Engineering = () => {
                     alt="mRNA Switches are inserted between flanking Type IIS restriction sites in the T7 bacteriophage genome"
                   ></img>
                   <p class="caption">
-                    Insertion of mRNA Switches between flanking Type IIS
-                    restriction sites in the T7 bacteriophage genome
+                    Figure 1: Insertion of mRNA Switches between flanking Type
+                    IIS restriction sites in the T7 bacteriophage genome
                   </p>
                 </div>
                 <h3 className="content-section-sh" id="engineering-SH-2">
@@ -132,8 +132,8 @@ const Engineering = () => {
                     alt="Length of extracted T7 Bacteriophage fragments verified through gel electrophoresis 2"
                   ></img>
                   <p class="caption">
-                    Length of extracted T7 Bacteriophage fragments verified
-                    through gel electrophoresis
+                    Figure 2: Length of extracted T7 Bacteriophage fragments
+                    verified through gel electrophoresis
                   </p>
                 </div>
                 <p>
@@ -184,15 +184,15 @@ const Engineering = () => {
                   Of the T7 genome fragments that were PCR amplified from the
                   genome, these T7 promoters and gene 1.0, which encodes for the
                   T7 RNA polymerase, are located in Fragments 1 and 6 (Figure
-                  2). We hypothesized that removing these two fragments from our
+                  3). We hypothesized that removing these two fragments from our
                   phage genome would enable the clconing of cassettes with toxic
                   genes that the E.coli host would not transcribe. Specifically,
-                  we Gibson Assembled both Fragments T, 2, and 3 and Fragments 4
-                  and 5 into a plasmid backbone, obtained from Dr. Phillip
-                  Kyriakakis (pSBo1) <sup>6</sup>. We then transformed the
-                  Gibson assembly product directly into DH10B, plating them with
-                  antibiotic selection and mini-prepped/seqeunce screened the
-                  resulting colonies.
+                  we Gibson Assembled both Fragments Insert, 2, and 3 and
+                  Fragments 4 and 5 into a plasmid backbone, obtained from Dr.
+                  Phillip Kyriakakis (pSBo1) <sup>6</sup>. We then transformed
+                  the Gibson assembly product directly into DH10B, plating them
+                  with antibiotic selection and mini-prepped/seqeunce screened
+                  the resulting colonies.
                 </p>
                 <div className="full-photos">
                   <img
@@ -201,8 +201,8 @@ const Engineering = () => {
                     alt="Subcloning backbones were designed for easy replication of T7 bacteriophage genome fragments"
                   ></img>
                   <p class="caption">
-                    Subcloning backbones were designed for easy replication of
-                    T7 bacteriophage genome fragments
+                    Figure 3: Subcloning backbones were designed for easy
+                    replication of T7 bacteriophage genome fragments
                   </p>
                 </div>
                 <h4>Learn</h4>
@@ -241,8 +241,8 @@ const Engineering = () => {
                     alt="Workflow of assembling individual T7 bacteriophage fragments with Gibson Assembly"
                   ></img>
                   <p class="caption">
-                    Workflow of assembling individual T7 bacteriophage fragments
-                    with Gibson Assembly
+                    Figure 4: Workflow of assembling individual T7 bacteriophage
+                    fragments with Gibson Assembly
                   </p>
                 </div>
                 <h4>Build and Test</h4>
@@ -255,11 +255,16 @@ const Engineering = () => {
                   <img
                     className="large-photo"
                     src="https://static.igem.wiki/teams/4951/wiki/screen-shot-2023-08-10-at-11-10-21-pm-4.jpg"
-                    alt="Workflow of assembling individual T7 bacteriophage fragments with Gibson Assembly 1"
+                    alt="Length of Gibson assembled T7 Bacteriophage fragments verified through gel electrophoresis 1"
+                  ></img>
+                  <img
+                    className="large-photo"
+                    src="https://static.igem.wiki/teams/4951/wiki/screen-shot-2023-08-10-at-11-27-36-pm-4.jpg"
+                    alt="Length of Gibson assembled T7 Bacteriophage fragments verified through gel electrophoresis 2"
                   ></img>
                   <p class="caption">
-                    Workflow of assembling individual T7 bacteriophage fragments
-                    with Gibson Assembly
+                    Figure 5: Length of Gibson assembled T7 Bacteriophage
+                    fragments verified through gel electrophoresis
                   </p>
                 </div>
                 <h4>Learn</h4>
@@ -278,8 +283,8 @@ const Engineering = () => {
                     alt="Poor yield of assembled T7 bacteriophage fragments shown through gel electrophoresis"
                   ></img>
                   <p class="caption">
-                    Poor yield of assembled T7 bacteriophage fragments shown
-                    through gel electrophoresis
+                    Figure 6: Poor yield of assembled T7 bacteriophage fragments
+                    shown through gel electrophoresis
                   </p>
                 </div>
                 <h3 className="content-section-sh" id="engineering-SH-4">
@@ -312,9 +317,9 @@ const Engineering = () => {
                     alt="Illustration of complete T7 bacteriophage genome assembly through Gibson Assembly. Homologous overlaps on each fragment allow for reliable assembly"
                   ></img>
                   <p class="caption">
-                    Illustration of complete T7 bacteriophage genome assembly
-                    through Gibson Assembly. Homologous overlaps on each
-                    fragment allow for reliable assembly
+                    Figure 7: Illustration of complete T7 bacteriophage genome
+                    assembly through Gibson Assembly. Homologous overlaps on
+                    each fragment allow for reliable assembly
                   </p>
                 </div>
                 <h4>Test</h4>
@@ -322,11 +327,11 @@ const Engineering = () => {
                   After assembly we performed a plaque assay by plating the
                   transformed DH10B in soft agar. Plaque formation indicated
                   successful assembly products, as partially assembled genomes
-                  would not yield plaques (Figure #5). We then grew the phage
-                  and extracted the phage genomic DNA, and sequenced it,
-                  confirming the assembly of the modified genome using long-read
-                  sequencing (Plasmidsaurus). This experiment was repeated eight
-                  times and consistently successful plaque formation.{" "}
+                  would not yield plaques. We then grew the phage and extracted
+                  the phage genomic DNA, and sequenced it, confirming the
+                  assembly of the modified genome using long-read sequencing
+                  (Plasmidsaurus). This experiment was repeated eight times and
+                  consistently successful plaque formation (Figure #8).{" "}
                 </p>
                 <h4>Learn</h4>
                 <p>
@@ -346,8 +351,8 @@ const Engineering = () => {
                     alt="Complete T7 Bacteriophage assembly successfully lysed E. Coli in plaque assay"
                   ></img>
                   <p class="caption">
-                    Complete T7 Bacteriophage assembly successfully lysed E.
-                    Coli in plaque assay
+                    Figure 8: Complete T7 Bacteriophage assembly successfully
+                    lysed E. Coli in plaque assay
                   </p>
                 </div>
                 <h2 className="content-section-sh" id="engineering-MH-5">
@@ -386,8 +391,8 @@ const Engineering = () => {
                     alt="Verification of fragment assembly shown through junction primer PCR and gel electrophoresis"
                   ></img>
                   <p class="caption">
-                    Verification of fragment assembly shown through junction
-                    primer PCR and gel electrophoresis
+                    Figure 9: Verification of fragment assembly shown through
+                    junction primer PCR and gel electrophoresis
                   </p>
                 </div>
                 <h4>Test</h4>
@@ -406,8 +411,8 @@ const Engineering = () => {
                     alt="Successful circular assembly of T7 bacteriophage shown through lysing of E. Coli on a plaque assay"
                   ></img>
                   <p class="caption">
-                    Successful circular assembly of T7 bacteriophage shown
-                    through lysing of E. Coli on a plaque assay
+                    Figure 10: Successful circular assembly of T7 bacteriophage
+                    shown through lysing of E. Coli on a plaque assay
                   </p>
                 </div>
                 <h2 className="content-section" id="engineering-MH-6">
@@ -456,13 +461,13 @@ const Engineering = () => {
                   Additionally, the two flanking SapI sites formed a hairpin
                   structure. One of these or both factors likely hindered
                   transcription of gene 2.5 to varying degrees, which explains
-                  why our SapI site-flanked genome had low plaque formation.
-                  However, these results did confirm that gene 2.5 is necessary
-                  for the formation of viable phages. By extension, if our RNA
-                  switch could effectively inhibit the transcription of gene 2.5
-                  with limited leakiness without the trigger gene, we could
-                  prevent the formation of viable phage when the target gene is
-                  absent.
+                  why our SapI site-flanked genome only developed into plauqes
+                  when the second SapI site is mutated out. However, these
+                  results did confirm that gene 2.5 is necessary for the
+                  formation of viable phages. By extension, if our RNA switch
+                  could effectively inhibit the transcription of gene 2.5 with
+                  limited leakiness without the trigger gene, we could prevent
+                  the formation of viable phage when the target gene is absent.
                 </p>
                 <div className="full-photos">
                   <img
@@ -471,8 +476,9 @@ const Engineering = () => {
                     alt="T7 bacteriophage with Toehold Insert appears to successfully lyse E. Coli in a plaque assay"
                   ></img>
                   <p class="caption">
-                    T7 bacteriophage with Toehold Insert appears to successfully
-                    lyse E. Coli in a plaque assay
+                    Figure 11: T7 bacteriophage with Toehold Insert appears to
+                    only lyse E. Coli in a plaque assay when second SapI site is
+                    mutated, resulting in low plaque formation.
                   </p>
                 </div>
                 <h3 className="content-section=sh" id="engineering-SH-6">
@@ -496,8 +502,8 @@ const Engineering = () => {
                     alt="Sequence of the redesigned Toehold Insert for modular cloning"
                   ></img>
                   <p class="caption">
-                    Sequence of the redesigned Toehold Insert for modular
-                    cloning
+                    Figure 12: Sequence of the redesigned Toehold Insert for
+                    modular cloning
                   </p>
                 </div>
                 <h4>Build</h4>
@@ -516,8 +522,8 @@ const Engineering = () => {
                     alt="Complete T7 bacteriophage genome shown with the modified Sap1 + EcoRI insert"
                   ></img>
                   <p class="caption">
-                    Complete T7 bacteriophage genome shown with the modified
-                    Sap1 + EcoRI insert
+                    Figure 13: Complete T7 bacteriophage genome shown with the
+                    modified Sap1 + EcoRI insert
                   </p>
                 </div>
                 <h4>Test</h4>
@@ -581,7 +587,7 @@ const Engineering = () => {
                     alt="Plaque assays demonstrating T7 bacteriophage with riboswitch’s lytic activity, with and without trigger mRNA"
                   ></img>
                   <p class="caption">
-                    Plaque assays demonstrating T7 bacteriophage with
+                    Figure 14: Plaque assays demonstrating T7 bacteriophage with
                     riboswitch’s lytic activity, with and without trigger mRNA
                   </p>
                 </div>
