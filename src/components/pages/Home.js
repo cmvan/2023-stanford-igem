@@ -174,7 +174,7 @@ const Home = () => {
         <h1 className="d-header center spacer">
           <b>Our Solution: Introducing Antibiotic Resistance Control (ARC)</b>
         </h1>
-        <h2 className="center spacer">ARC leverages synthetic biology to address the urgent problem of antibiotic resistance in the environment by harnessing the natural killing abilities of bacteriophages to selectively target bacteria containing the antibiotic resistance gene. By creating sub-host specificity through the implementation of a novel RNA switch, we effectively aim to create a selective pressure against the presence of antibiotic resistance in the environment while minimizing harm to the native microbiota.</h2>
+        <h2 className="center spacer">ARC leverages synthetic biology to address the urgent problem of antibiotic resistance in the environment by harnessing the natural killing abilities of bacteriophages to selectively target bacteria containing the antibiotic resistance gene.<br></br><br></br>By creating sub-host specificity through the implementation of a novel RNA switch, we effectively aim to create a selective pressure against the presence of antibiotic resistance in the environment while minimizing harm to the native microbiota.</h2>
         <div class="column-container spacer">
         <div class="column center">
             <h2><b>Phage Genome Assembly</b></h2>
