@@ -407,7 +407,7 @@ const Engineering = () => {
                 <div className="full-photos">
                   <img
                     className="large-photo"
-                    src="https://static.igem.wiki/teams/4951/wiki/screen-shot-2023-10-09-at-6-06-13-pm.png"
+                    src="https://static.igem.wiki/teams/4951/wiki/fig10.png"
                     alt="Successful circular assembly of T7 bacteriophage shown through lysing of E. Coli on a plaque assay"
                   ></img>
                   <p class="caption">
@@ -472,7 +472,7 @@ const Engineering = () => {
                 <div className="full-photos">
                   <img
                     className="large-photo"
-                    src="https://static.igem.wiki/teams/4951/wiki/screen-shot-2023-10-09-at-6-06-28-pm.png "
+                    src="https://static.igem.wiki/teams/4951/wiki/fig11.png"
                     alt="T7 bacteriophage with Toehold Insert appears to successfully lyse E. Coli in a plaque assay"
                   ></img>
                   <p class="caption">
