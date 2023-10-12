@@ -96,7 +96,7 @@ const Safety = () => {
                     >
                       Chapter XIII: Hazardous Materials Storage
                     </a>
-                    , and
+                    , and{" "}
                     <a
                       href="https://library.municode.com/ca/santa_clara_county/codes/code_of_ordinances?nodeId=TITBRE_DIVB11ENHE_CHXIVTOGAST"
                       target="_blank"
@@ -455,8 +455,15 @@ const Safety = () => {
                 <p>
                   However, we discovered that we can minimize the risks of
                   “super-phages” by integrating control systems within the phage
-                  genome. Our insights have been summarized on the Human
-                  Practices page.
+                  genome. Our insights have been summarized on the{" "}
+                  <a
+                    href="/stanford/human-practices"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Human Practices page
+                  </a>
+                  .
                 </p>
                 <h3 className="content-section-sh" id="safety-SH-3">
                   Human–T7 Phage Interactions
@@ -520,8 +527,15 @@ const Safety = () => {
                 </p>
                 <p>
                   For our real-world applications, we have placed safeguards in
-                  the treatment process, which are described on the
-                  Implementation Page.
+                  the treatment process, which are described on the{" "}
+                  <a
+                    href="/stanford/implementation"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Implementation Page
+                  </a>
+                  .
                 </p>
                 <h2 className="content-section" id="safety-MH-6">
                   References
