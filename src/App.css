@@ -1524,3 +1524,20 @@ header .nav-area {
 .ihp-cards-a{
   margin: 0 auto;
 }
+
+@media screen and (max-width: 768px) {
+  .animation-container img{
+      max-width: 350px;
+      height: auto;
+  }
+  .column-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .video-container iframe {
+    width: 100%;
+  }
+  .home-section{
+    padding: 25px;
+  }
+}
