@@ -215,6 +215,26 @@ const Safety = () => {
                 <h2 className="content-section" id="safety-MH-3">
                   General Microorganisms Information
                 </h2>
+                <div className="full-photos">
+                  <img
+                    className="large-photo"
+                    src="https://static.igem.wiki/teams/4951/wiki/biosafety-table.jpg"
+                    alt="BSL and Environmental Controls Table from Stanford University STARS Training Module EHS-1500-WEB: Biosafety Module"
+                  ></img>
+                  <p class="caption">
+                    Fig 1. Stanford University STARS Training Module
+                    EHS-1500-WEB: Biosafety; “BSL and Environmental Controls.”
+                    For more information, contact the{" "}
+                    <a
+                      href="https://ehs.stanford.edu/services/administrative-panel-biosafety-review"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Stanford University Administrative Panel on Biosafety
+                    </a>
+                    .
+                  </p>
+                </div>
                 <p>
                   The vast majority of microorganisms are classified as Risk
                   Group (RG) 1. They were handled in an RG1 rated laboratory.
