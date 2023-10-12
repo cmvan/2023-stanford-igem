@@ -5,10 +5,10 @@ import TableOfContents from '../TableOfContents';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 
-const Parts = () => {
+const PartsCollection = () => {
     const [key, setKey] = useState('overview');
     return ( 
-        <Template title="Parts">
+        <Template title="Parts Collection">
             <div className="row"> 
                 <div className="toc-index col-sm-2"> 
                     <TableOfContents activeKey={key}/>
@@ -32,4 +32,4 @@ const Parts = () => {
     )
 }
 
-export default Parts
+export default PartsCollection

@@ -9,8 +9,7 @@ import Home from './components/pages/Home';
 import Engineering from './components/pages/Engineering';
 import Implementation from './components/pages/Implementation';
 import Results from './components/pages/Results';
-import PartCollection from './components/pages/PartCollection';
-import Parts from './components/pages/Parts';
+import PartCollection from './components/pages/PartsCollection';
 import Experiments from './components/pages/Experiments';
 import Safety from './components/pages/Safety';
 import Notebook from './components/pages/Notebook';
@@ -36,8 +35,7 @@ function App() {
       <Route path="/engineering" element={<Engineering />} />
       <Route path="/implementation" element={<Implementation />} />
       <Route path="/results" element={<Results />} />
-      <Route path="/part-collection" element={<PartCollection />} />
-      <Route path="/parts" element={<Parts />} />
+      <Route path="/parts-collection" element={<PartCollection />} />
       <Route path="/experiments" element={<Experiments />} />
       <Route path="/safety" element={<Safety />} />
       <Route path="/notebook" element={<Notebook />} />

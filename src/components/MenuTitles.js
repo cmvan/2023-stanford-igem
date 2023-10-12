@@ -25,12 +25,8 @@ export const MenuTitles = [
         display: "Wet Lab",
         submenu: [
             {
-                title: "part-collection", 
-                display: "Part Collection"
-            },
-            {
-                title: "parts", 
-                display: "Parts"
+                title: "parts-collection", 
+                display: "Parts Collection"
             },
             {
                 title: "experiments",

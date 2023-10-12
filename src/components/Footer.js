@@ -64,10 +64,7 @@ const Footer = () => {
                         <h5>Wet Lab</h5>
                         <ul>
                             <li className="nav-item">
-                                <Link to="/part-collection">Part Collection</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link to="/parts">Parts</Link>
+                                <Link to="/parts-collection">Parts Collection</Link>
                             </li>
                             <li className="nav-item">
                                 <Link to="/experiments">Experiments</Link>
