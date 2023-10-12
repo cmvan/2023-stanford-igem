@@ -444,6 +444,25 @@ const HumanPractices= () => {
                                     );
                                 })}
                                 </div>
+                                
+                                <div className="photo-grid">
+                                <div className="photo-row">
+                                    <div className="ihp-photo">
+                                    <img src="https://static.igem.wiki/teams/4951/wiki/ihp-interviews/interview-dr-magnus.png" alt="Interview" />
+                                    </div>
+                                    <div className="ihp-photo">
+                                    <img src="https://static.igem.wiki/teams/4951/wiki/ihp-interviews/interview-codiga-2.jpg" alt="Codiga" />
+                                    </div>
+                                </div>
+                                <div className="photo-row">
+                                    <div className="ihp-photo">
+                                    <img src="https://static.igem.wiki/teams/4951/wiki/ihp-interviews/interview-ebmud.jpg" alt="Oakland Waste Water Treatment Plant" />
+                                    </div>
+                                    <div className="ihp-photo">
+                                    <img src="https://static.igem.wiki/teams/4951/wiki/ihp-interviews/interview-dr-westra.png" alt="Interview" />
+                                    </div>
+                                </div>
+                                </div>
 
                                 <h2 className="content-section" id="implement-4">Conclusion</h2>
                                 <p>Throughout our HP journey, we have had the pleasure of collaborating with a diverse range of scientists, businesses, consultants, and individuals to propel ARC’s real-world applications to new heights.<br></br><br></br>
