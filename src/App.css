@@ -260,13 +260,6 @@ header .nav-area {
 }
 
 /* ------------ TABLE OF CONTENTS  -------------*/ 
-nav.table-of-contents {
-  position: sticky;
-  position: -webkit-sticky; /* For Safari */
-  top: 600px; /* How far down the page you want your ToC to live */
-  z-index: 100;
-}
-
 .text-content { 
   margin-right: 15rem;
   margin-left: 6rem;
@@ -280,6 +273,7 @@ nav.table-of-contents {
   position: sticky;
   position: -webkit-sticky; /* For Safari */
   top: 400px;
+  z-index: 100;
 }
 
 .toc-container a {
