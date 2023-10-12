@@ -49,22 +49,6 @@ export const membersInfo = [
   },
   {
     id: 3,
-    name: "Zane Chan",
-    year: "Bioengineering '25",
-    img: {
-      src: "https://static.igem.wiki/teams/4951/wiki/team-photos/zane-c.jpg",
-      alt: "Picture of Zane Chan",
-    },
-    imgFun: {
-      src: "https://static.igem.wiki/teams/4951/wiki/team-photos/zane2.jpg",
-      alt: "Fun Picture of Zane Chan",
-    },
-    email: "zanechan@stanford.edu",
-    linkedin: "https://www.linkedin.com/in/zane-chan-b5aa0122b/",
-    bio: "Zane is a rising junior majoring in Bioengineering and minoring in Computer Science. He loves synthetic biology, dogs, and adventures (terrifyingly broadly defined). Zane would like to make gene therapies for dogs someday. Zane joined iGEM to build a stronger foundation in bioengineering. It takes a lot of practice! Some things he loves to do outside of school are backpacking, working on BioE projects (@stanford.biome), spikeball, reading, traveling, skiing, watching movies, triathlon training, and cooking", 
-  },
-  {
-    id: 4,
     name: "Nick Murphy",
     year: "Chemical Engineering '25",
     img: {
@@ -78,6 +62,22 @@ export const membersInfo = [
     email: "ngmurphy@stanford.edu",
     linkedin: "https://www.linkedin.com/in/nicholasgmurphy/",
     bio: "Nick is a driven junior majoring in Chemical Engineering. He thrives on applying scientific principles to real-world challenges, making a tangible difference. Previously, Nick interned at Lennham Pharmaceuticals and Tremeau Pharmaceuticals, where he investigated deuterated pharmaceuticals and non-steroidal anti-inflammatory drugs. Beyond the science realm, he's a surfer who catches waves in Half Moon Bay, finding solace and inspiration in the beauty of the ocean. Nick also expresses his creativity through playing the piano, using music as an outlet for self-expression. Nick is poised to leave a lasting impact in the world of science and beyond.",
+  },
+  {
+    id: 4,
+    name: "Zane Chan",
+    year: "Bioengineering '25",
+    img: {
+      src: "https://static.igem.wiki/teams/4951/wiki/team-photos/zane-c.jpg",
+      alt: "Picture of Zane Chan",
+    },
+    imgFun: {
+      src: "https://static.igem.wiki/teams/4951/wiki/team-photos/zane2.jpg",
+      alt: "Fun Picture of Zane Chan",
+    },
+    email: "zanechan@stanford.edu",
+    linkedin: "https://www.linkedin.com/in/zane-chan-b5aa0122b/",
+    bio: "Zane is a rising junior majoring in Bioengineering and minoring in Computer Science. He loves synthetic biology, dogs, and adventures (terrifyingly broadly defined). Zane would like to make gene therapies for dogs someday. Zane joined iGEM to build a stronger foundation in bioengineering. It takes a lot of practice! Some things he loves to do outside of school are backpacking, working on BioE projects (@stanford.biome), spikeball, reading, traveling, skiing, watching movies, triathlon training, and cooking", 
   },
   {
     id: 5,
