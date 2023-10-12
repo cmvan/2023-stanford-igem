@@ -540,7 +540,7 @@ const Safety = () => {
                 <h2 className="content-section" id="safety-MH-6">
                   References
                 </h2>
-                <ol>
+                <ol className="small-references">
                   <li>
                     Laboratory biosafety manual, fourth edition. Geneva: World
                     Health Organization; 2020 (Laboratory biosafety manual,
