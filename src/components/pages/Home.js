@@ -90,7 +90,7 @@ const Home = () => {
       </div>
       <div className="home-statistics center extra-space">
         <h1 className="hidden-text">
-          Antibiotic resistance in the environment harms human health, reduces the effectiveness of antibiotics, and creates ecological imbalances.<br></br><br></br>At Stanford iGEM, we aim to control the lytic activity of bacteriophages by integrating synthetic RNA switches to selectively target bacteria containing an antibiotic resistance gene.
+          Antibiotic resistance in the environment harms human health and creates ecological imbalances.<br></br><br></br>At Stanford iGEM, we aim to control the lytic activity of bacteriophages by integrating synthetic RNA switches to selectively target bacteria containing an antibiotic resistance gene in order to maintain the native microbiota.
         </h1>
       </div>
       <div className="home-flex center">

@@ -767,7 +767,12 @@ nav.table-of-contents {
   padding: 20px;
   padding-bottom: 5px;
   margin: 10px;
-  align-content: center;
+}
+
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .wide-box {
@@ -935,16 +940,22 @@ nav.table-of-contents {
 .box-photo-big {
   width: 100%;
   padding-bottom: 10px;
+  display: block;
+  margin: 0 auto;
 }
 
 .box-photo-med {
   width: 70%;
   padding-bottom: 10px;
+  display: block;
+  margin: 0 auto;
 }
 
 .box-photo-small {
   width: 50%;
   padding-bottom: 10px;
+  display: block;
+  margin: 0 auto;
 }
 
 .info-box img {

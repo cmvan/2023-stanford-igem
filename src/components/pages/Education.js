@@ -36,7 +36,7 @@ function Education(){
                                 </div>
 
                                 <div className="gap row pair">
-                                <img className="col transparent-photo" src="https://static.igem.wiki/teams/4951/wiki/education/labbunnyfront.gif" alt="SWE Cohort with iGEM Team"></img>
+                                <img className="col transparent-photo" src="https://static.igem.wiki/teams/4951/wiki/education/labbunnyfront.gif" alt="Lab Bunny Gif"></img>
                                 <article className="col-lg-8 overview-block">
                                     <h5><b>Educational Game: Phil’s Laberia</b></h5>
                                     <p>Developed over the course of two months, “Phil's Laberia” is an innovative bioengineering game and tool that democratizes access to advanced wet lab techniques.</p>
@@ -157,16 +157,16 @@ function Education(){
                                     <article className="info-box"><h5><b>Player Agency</b></h5>
                                     <p>Controllable player and actions to make a more dynamic and personalized experience beyond "quiz" style games.</p><img className="box-photo-small" src="https://static.igem.wiki/teams/4951/wiki/education/labbunnyleft.gif" alt="Bunny Walking Left"></img></article>
                                     <article className="info-box"><h5><b>Realistic Lab Environment</b></h5>
-                                    <p>Features different kinds of lab equipment and storage to emulate a real lab. The lab tour explains the functionality of each.</p><img className="box-photo-med" src="https://static.igem.wiki/teams/4951/wiki/education/labtilesheet.png" alt="Development Timeline of Phil's Laberia"></img></article>
+                                    <p>Features different kinds of lab equipment and storage to emulate a real lab. The lab tour explains the functionality of each.</p><img className="box-photo-med" src="https://static.igem.wiki/teams/4951/wiki/education/labtilesheet.png" alt="Lab Equipment Sprite Sheet"></img></article>
                                     <article className="info-box"><h5><b>Immersive and Interactive</b></h5>
-                                    <p>Sound effects and music to make game immersive. Player can interact with items, objects, and machines. </p><img className="box-photo-med" src="https://static.igem.wiki/teams/4951/wiki/education/shakingincubator.png" alt="Development Timeline of Phil's Laberia"></img></article>
+                                    <p>Sound effects and music to make game immersive. Player can interact with items, objects, and machines. </p><img className="box-photo-med" src="https://static.igem.wiki/teams/4951/wiki/education/shakingincubator.png" alt="Shaking Incubator Art"></img></article>
                                     <article className="info-box"><h5><b>Educational Dialogue</b></h5>
-                                    <p>Dialogue from different character NPCs based on our team's mentors. Players can read to learn more about the science behind bioE techniques.</p><img className="box-photo-big" src="https://static.igem.wiki/teams/4951/wiki/education/mentordrawings.png" alt="Development Timeline of Phil's Laberia"></img></article>
+                                    <p>Dialogue from different character NPCs based on our team's mentors. Players can read to learn more about the science behind bioE techniques.</p><img className="box-photo-big" src="https://static.igem.wiki/teams/4951/wiki/education/mentordrawings.png" alt="NPC Art"></img></article>
                                     <article className="info-box"><h5><b>Accessibility</b></h5>
-                                    <p>Runs on an internet browser to make the game easily accessible. No need for downloads. No need for high specs to play.</p><img className="box-photo-big" src="https://static.igem.wiki/teams/4951/wiki/education/screenshotgame1.png" alt="Development Timeline of Phil's Laberia"></img></article>
+                                    <p>Runs on an internet browser to make the game easily accessible. No need for downloads. No need for high specs to play.</p><img className="box-photo-big" src="https://static.igem.wiki/teams/4951/wiki/education/screenshotgame1.png" alt="Game Screenshot"></img></article>
                                 </div>
                                 <h4 className="center"><b>Core Gameplay Loop</b></h4>
-                                <div className="full-photos"><img className="large-photo" src="https://static.igem.wiki/teams/4951/wiki/education/coreloop.png" alt="Development Timeline of Phil's Laberia"></img></div>
+                                <div className="full-photos"><img className="large-photo" src="https://static.igem.wiki/teams/4951/wiki/education/coreloop.png" alt="Core Gameplay Loop Diagram"></img></div>
 
                                 <h3 className="content-section-sh" 
                                 id="overview-game-SH-4">Impact & Outreach</h3>
@@ -209,19 +209,19 @@ function Education(){
                                 <h2 className="content-section" id="overview-MH-4"> SWE-GetSET Workshop</h2>
                                 <p>SWE is one of the largest organizations supporting women in engineering and technology, and a leading advocate and catalyst for transformative change worldwide. Under the Santa Clara Valley Section of SWE, Stanford iGEM hosted a Synthetic Biology Workshop with the Get Science, Engineering, and Technology (GetSET) Program. GetSET is an award-winning outreach program that has been running for over 30 years. Participants interested in STEM connected with over 100 peers, industry professionals, and volunteers experienced in engineering fields. Our team planned, organized, and led a two-day workshop, where we introduced both synthetic biology concepts as well as research and career opportunities to the participants.
                                 </p>
-                                <div className="full-photos"><img className="large-photo" src="https://static.igem.wiki/teams/4951/wiki/education/getsetworkshop.jpg" alt="Advertisement Poster for SIBRP"></img>
+                                <div className="full-photos"><img className="large-photo" src="https://static.igem.wiki/teams/4951/wiki/education/getsetworkshop.jpg" alt="GetSET Workshop"></img>
                                 <p class="caption">iGEM Team and GetSET Cohort Group Photo</p>
                                 </div>
                                 <h3 className="content-section-sh" id="overview-SWE-SH-1">Day 1</h3>
                                 <h4 className="center">Introduction to Bioengineering and Bio-Art Activity</h4>
                                 <p>Day one of the workshop took place at Santa Clara University, where the GetSET participants engaged in introductory bioengineering skills. Students developed wet lab skills through a hands-on Bio-Art activity, where they crafted personal art by streaking chromoprotein bacteria on LB plates. Furthermore, they put their knowledge to the test through an interactive Kahoot trivia! The trivia quizzed the participants on topics ranging from protein structure to cloning techniques.</p>
-                                <div className="full-photos"><img className="large-photo" src="https://static.igem.wiki/teams/4951/wiki/education/20230718-122021.jpg" alt="Advertisement Poster for SIBRP"></img>
+                                <div className="full-photos"><img className="large-photo" src="https://static.igem.wiki/teams/4951/wiki/education/20230718-122021.jpg" alt="GetSET Workshop"></img>
                                 <p class="caption">GetSET Cohort and Their Bio-Art Creations</p>
                                 </div>
                                 <h3 className="content-section-sh" id="overview-SWE-SH-2">Day 2</h3>
                                 <h4 className="center">Stanford Tour of Engineering and Science Facilities</h4>
                                 <p>Day 2 of the workshop was an in-depth, six hour tour of Stanford University’s engineering and science facilities. Ranging from the Stanford School of Medicine to the Gates Computer Science Building, students fostered a greater understanding of career and education opportunities available at higher education. The goal of the tour was to expose students to engineering environments, different academic disciplines, and the ground-breaking research conducted at top research institutions. Additionally, students were able to examine their Bio-Art products from the previous day.</p>
-                                <div className="full-photos"><img className="large-photo" src="https://static.igem.wiki/teams/4951/wiki/education/img-4340.jpeg" alt="Advertisement Poster for SIBRP"></img>
+                                <div className="full-photos"><img className="large-photo" src="https://static.igem.wiki/teams/4951/wiki/education/img-4340.jpeg" alt="GetSET Tour"></img>
                                 <p class="caption">Students on a Tour of Stanford's Facilities</p>
                                 </div>
                                 <p>The SWE GetSET Program Workshop inspired and empowered the next generation of scientists and engineers. Through engaging discussions, hands-on activities, and exposure to cutting-edge research environments, we introduced students to pioneering research and encouraged their future contribution in the fields of science, engineering, and technology.</p>
@@ -274,7 +274,7 @@ function Education(){
                                 <h2 className="content-section" id="edprogram-1"> Guest Speakers</h2>
                                 <h3 className="content-section-sh" id="edprogram-1-1">Dr. Alex Engel</h3>
                                 <div className="guest-speaker spacer">
-                                    <img className="med-photo" src="https://static.igem.wiki/teams/4951/wiki/guest-speaker-alex.png" alt="Stanford OSE Logo"></img>
+                                    <img className="med-photo" src="https://static.igem.wiki/teams/4951/wiki/guest-speaker-alex.png" alt="Dr. Alex Engel Poster"></img>
                                     <div className='row info-boxes'> 
                                     <article className="quote-box1">
                                         <p>"The way Dr. Engel presented his area of expertise was clear and concise. I was very engaged the whole time."</p></article>
@@ -294,11 +294,11 @@ function Education(){
                                         <article className="quote-box1">
                                         <p>"As someone very into computer science, learning how you can model cells using simulations was amazing. My favorite aspect was seeing the model in 3D."</p></article>
                                     </div>
-                                    <img className="med-photo" src="https://static.igem.wiki/teams/4951/wiki/guest-speaker-cyrus.png" alt="Stanford OSE Logo"></img>
+                                    <img className="med-photo" src="https://static.igem.wiki/teams/4951/wiki/guest-speaker-cyrus.png" alt="Cyrus K Poster"></img>
                                 </div>
                                 <h3 className="content-section-sh" id="edprogram-1-3">Dr. Rogelio Hernández Lopez</h3>
                                 <div className="guest-speaker spacer">
-                                    <img className="med-photo" src="https://static.igem.wiki/teams/4951/wiki/guest-speaker-rogelio-herna-ndez-lo-pez.png" alt="Stanford OSE Logo"></img>
+                                    <img className="med-photo" src="https://static.igem.wiki/teams/4951/wiki/guest-speaker-rogelio-herna-ndez-lo-pez.png" alt="Dr. Rogelio Hernández Lopez Poster"></img>
                                     <div className='row info-boxes'> 
                                     <article className="quote-box1">
                                         <p>"The presentation was really interesting. It really got me thinking about all types of possibilities that there are for fighting against diseases and other unwanted things."</p></article>
@@ -318,11 +318,11 @@ function Education(){
                                         <article className="quote-box1">
                                         <p>"She talked about her entrepreneurship experience and it was personally admirable to see a woman breaking boundaries in STEM."</p></article>
                                     </div>
-                                    <img className="med-photo" src="https://static.igem.wiki/teams/4951/wiki/guest-speaker-post-dr-ring.png" alt="Stanford OSE Logo"></img>
+                                    <img className="med-photo" src="https://static.igem.wiki/teams/4951/wiki/guest-speaker-post-dr-ring.png" alt="Dr. Ring Poster"></img>
                                 </div>
                                 <h3 className="content-section-sh" id="edprogram-1-5">Dr. Philip Kyriakakis</h3>
                                 <div className="guest-speaker spacer">
-                                    <img className="med-photo" src="https://static.igem.wiki/teams/4951/wiki/guest-speaker-phil.png" alt="Stanford OSE Logo"></img>
+                                    <img className="med-photo" src="https://static.igem.wiki/teams/4951/wiki/guest-speaker-phil.png" alt="Dr. Philip Kyriakakis Poster"></img>
                                     <div className='row info-boxes'> 
                                     <article className="quote-box1">
                                         <p>"It was really interesting how we are able to map the entire brain using neurons and electricity. It was honestly motivational and got me to work."</p></article>
@@ -342,7 +342,7 @@ function Education(){
                                         <article className="quote-box1">
                                         <p>"I have heard other professors talk about this topic but I’ve never really heard someone explain it very secure and fluently as how Dr. Trounce did."</p></article>
                                     </div>
-                                    <img className="med-photo" src="https://static.igem.wiki/teams/4951/wiki/guest-speaker-trounce.png" alt="Stanford OSE Logo"></img>
+                                    <img className="med-photo" src="https://static.igem.wiki/teams/4951/wiki/guest-speaker-trounce.png" alt="Dr. Milana Trounce Poster"></img>
                                 </div>
                                 
                                 <h2 className="content-section" id="edprogram-2"> Program Structure & Outreach </h2>
