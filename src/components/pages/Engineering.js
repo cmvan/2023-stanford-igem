@@ -596,7 +596,7 @@ const Engineering = () => {
                   It is not clear that these switches work in the conditions we
                   tested. It may be that the levels of trigger, temperature, or
                   other factors play a role. However, our pipeline to
-                  design-build-test-learn phages containing toe hold switches is
+                  design-build-test-learn phages containing toehold switches is
                   a quick route for optimizing newer versions.{" "}
                 </p>
                 <h2 className="content-section" id="engineering-MH-8">
@@ -1132,7 +1132,7 @@ const Engineering = () => {
                 <p>
                   Similar to toeholds, they assume the OFF position when the
                   gene is converted to mRNA and assume the ON position upon
-                  binding to a target mRNA sequence. However, while Toeholds are
+                  binding to a target mRNA sequence. However, while toeholds are
                   generated in a fixed structure, with the same number of bases
                   and the same pairing structure in all switches, Riboswitches
                   can assume many different configurations, such as AND or OR,
@@ -1143,7 +1143,7 @@ const Engineering = () => {
                 <h2 className="content-section" id="engineering-MH-14">
                   References
                 </h2>
-                <ol>
+                <ol className="small-references">
                   <li>
                     Green, A. A., Silver, P. A., Collins, J. J., & Yin, P.
                     (2014). Toehold switches: de-novo-designed regulators of

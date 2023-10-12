@@ -153,7 +153,7 @@ const Contribution = () => {
                   <img
                     className="large-photo"
                     src="https://static.igem.wiki/teams/4951/wiki/thumbnail-png-image-2.jpg"
-                    alt="Fluorescent output of tested riboswitches compared to
+                    alt="Fluorescent output of tested switches compared to
                     controls 1"
                   ></img>
                 </div>
@@ -161,11 +161,11 @@ const Contribution = () => {
                   <img
                     className="large-photo"
                     src="https://static.igem.wiki/teams/4951/wiki/thumbnail-img-7988.png"
-                    alt="Fluorescent output of tested riboswitches compared to
+                    alt="Fluorescent output of tested switches compared to
                     controls 2"
                   ></img>
                   <p class="caption">
-                    Fluorescent output of tested riboswitches compared to
+                    Fluorescent output of tested switches compared to
                     controls
                   </p>
                 </div>
