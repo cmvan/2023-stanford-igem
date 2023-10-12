@@ -1416,6 +1416,10 @@ nav.table-of-contents {
   padding-left: 100px;
 }
 
+.references li{
+  padding-bottom: 8px;
+}
+
 #pin-drawing img{
   width: 40%;
 }
@@ -1444,4 +1448,9 @@ nav.table-of-contents {
 .go-up img {
   width: 60px; /* Adjust as needed */
   height: 60px; /* Adjust as needed */
+}
+
+.small-references li{
+  font-size: 12px;
+  padding: 6px;
 }

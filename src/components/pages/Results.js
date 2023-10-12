@@ -59,7 +59,7 @@ const Results = () => {
                                 </p>
 
                                 <h2 className="content-section" id="results-4">References</h2>
-                                <ol>
+                                <ol className="small-references">
                                     <li>John M. Pryor, Vladimir Potapov, Katharina Bilotti, Nilisha Pokhrel, and Gregory J. S. Lohman. Rapid 40 kb Genome Construction from 52 Parts through Data-optimized Assembly Design. ACS Synthetic Biology 2022 11 (6), 2036-2042 DOI: 10.1021/acssynbio.1c00525</li>
                                 </ol>
                             </section>

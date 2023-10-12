@@ -127,7 +127,7 @@ const Description = () => {
                                 Additionally, we hope that our open-source software will provide a platform for scientists globally to address the “good bacteria gone bad” in their own local environments, laying the groundwork for phages as a pragmatic, appealing solution to the antibiotic resistance crisis and contamination from synthetic biology.
                                 </p>
                                 <h2 className="content-section" id="references">References</h2>
-                                <ol>
+                                <ol className="small-references">
                                     <li>UNEP. (2023, February 7). Bracing for Superbugs: Strengthening environmental action in the One Health response to antimicrobial resistance. UN Environment Programme. https://www.unep.org/resources/superbugs/environmental-action </li>
                                     <li>San Francisco Baykeeper (2019). New report confirms that Oakland’s sewage system stinks. baykeeper.org/blog/new-report-confirms-oakland%E2%80%99s-sewage-system-stinks</li>
                                     <li>U.S. Department of Agriculture (2016). 20160521-RD-LSC-0925. Flickr, flickr.com/photos/usdagov/27106056663</li>
