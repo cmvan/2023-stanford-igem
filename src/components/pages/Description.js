@@ -65,6 +65,9 @@ const Description = () => {
                                     <article className="info-box"><h5 className="center"><b>Civic Pride</b></h5>
                                     <img className="box-photo-big" src="https://static.igem.wiki/teams/4951/wiki/project-description/54-pd-lake-merritt-at-night.jpg" alt="Lake Merrit"></img><p className="center">Source: Hitchster, Flickr<sup>6</sup></p></article>
                                 </div>
+                                <p>Oaklanders are aware of Lake Merritt’s unpleasant smell and water quality issues but are keen to improve these conditions. In 2002, 80% of Oakland voters approved Measure DD, a $200 million bond for water quality and park upgrades.<sup>7</sup></p>
+
+                                <p>Inspired by the people’s goal to restore the lake, the Stanford iGEM team envisioned a solution that leverages synthetic biology to address contamination from ARB and promote a cleaner, safer local ecosystem.</p>
 
                                 <h2 className="content-section" id="current-solutions-1">Current Solutions & Shortcomings</h2>
                                 <p>Prominent solutions for fighting ARB include novel or combinations of antibiotics and bacteriophages. However, these strategies all have significant limitations in application, efficacy, or safety.<sup>8</sup></p>
