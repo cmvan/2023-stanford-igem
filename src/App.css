@@ -728,6 +728,20 @@ nav.table-of-contents {
   margin-left: 40px;
   background-color: #cffcff;
 }
+
+.big-overview-block{
+  width: 80%;
+  height: auto;
+  background-color: #ffffff; /* Background color of the div */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px;
+  padding-bottom: 5px;
+  background-color: #cffcff;
+  margin: 0 auto;
+  text-align: center;
+}
+
 .info-boxes {
   display: flex;
   justify-content: center;

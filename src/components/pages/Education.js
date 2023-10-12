@@ -148,8 +148,6 @@ function Education(){
 
                                 <h3 className="content-section-sh" 
                                 id="overview-game-SH-2">Key Features</h3>
-                                <p>Our educational game was ideated, illustrated, and solo-developed over the course of two months by one of our team members. Pictured below is a timeline of the development process. For more specific details, refer to the "Phil's Laberia" tab on the top of the page.
-                                </p>
                                 <div className="full-photos"><img className="large-photo" src="https://static.igem.wiki/teams/4951/wiki/education/demogifgame1.gif" alt="Gif Demo of Game"></img></div>
                                 <div className='row info-boxes spacer'>
                                     <article className="info-box"><h5><b>Multiple Levels</b></h5>
